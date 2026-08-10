@@ -1,0 +1,137 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "30": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 31
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "18": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 19
+  },
+  "Values": {
+    "13,2": "WE'LL BE BACK SOON!",
+    "16,2": "Sorry, the site is currently under maintenance. We'll be back soon."
+  },
+  "AttachInfos": {
+    "3,4": {
+      "CellType": {
+        "$type": "Forguncy.ImageCellType, ServerDesignerCommon",
+        "ImagePath": "fgc_built-in-page-maintained.png"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0,
+        "FontSize": 13.333333015441895,
+        "Foreground": 1
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 24.0,
+        "FontWeight": 2,
+        "Foreground": 3,
+        "Formatter": 4,
+        "HorizontalAlignment": 5
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 13.333333333333332,
+        "Foreground": 6,
+        "Formatter": 7,
+        "VerticalAlignment": 8,
+        "WordWrap": true
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body",
+        "#FF000000",
+        "Bold",
+        "Text 1 25",
+        "General",
+        "Center",
+        "#FF7F7F7F",
+        "[AUTO]General",
+        "Top"
+      ]
+    },
+    "CellStyles": {
+      "3,4": 0,
+      "13,2": 1,
+      "16,2": 2
+    },
+    "SheetStyle": {
+      "FontFamily": 0,
+      "FontSize": 13.333333015441895,
+      "Foreground": 1
+    }
+  },
+  "Spans": [
+    "13,2,2,15",
+    "3,4,9,11",
+    "16,2,6,15"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "Title": "Under maintenance",
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "IsBuiltInPage": true,
+    "IsMobilePage": true
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//E91mHQ4lBrGI4XikDfPzUbfYW895Lr7QplFshfpeGLLBH1ZNjkZlNQntaFj+fyz9HtahyjGy9SUdRzeVgzvB2roFuca1kbeNotGa5nHH2vHfChWe8prex74WDm2aluHO+gfSbjsA4gO/CgWJwJM5qWO3Kb1s9+4/V4kbv6dLVkspt5i2I8WzPoC/Lu6L/u5Ou0uX9/p0SMgPmw0nlcX7koWgMC/T14XkSgplekrawNQDIuGWiSAeMSH4E5tQyx4m6nkzh1fDKF1vOlVJWkWsxxxHdLARlIV14ELyzQv2iYaxbXK11p8MiSnm6cC8GxSihrqYMSoqZaAZQArldVsoH/kK0Wt8JNY+j1W2TVsHozWLF0kDRDs/9TX922W1529rYG/mPxaSmcrcWP5bQMdy8kF8Q6k1FPDU5euxWQKSJ2QGgeo6835LRx8Jrwl1yq3F2NSOlRmIv+giAaZyomXUAQsrhXmLEgZzobGcVzLGSyPeJmaQaMYQeWW644Vb72pKI2LP16SSgariviw5g4QFw2zClPvoYcqTNEk+v6gOOkHqpaffUNG3TWFB/FsStnfbECMN4Ql0KmLyvZFPzFAsTfn0/C/6EvVQDiY+7skIGFkqsgvCv/2FnoBI4yIBbH3ZUA4ERm9FjRXC1YLVgkPeMGNskHgKIXSIi8NjgbqyYo1BWMo0VKmHM0eNXrmpv30nA0kZ1dBEQZMfJczPa6aqY6Z3UrXhxlt328ZPMk9BfjDQ6qDxEh4UL8eKPMzAY2RXL/C8koQgHrCPMXV+VYKqCr41mdMIQEDFSdCRQ7bkBe2X+emLSVb0fcH77u1FjWMSV+LlfmqFbkOjBWLUi4bxwTgtfWfF8KeGoIOT+sq40t6Q9OGpvA4tnvDHBiqFxX9FeET89g+AvCjRT2BrvnnegA==|920
