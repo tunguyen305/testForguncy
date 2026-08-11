@@ -13,11 +13,6 @@
           }
         }
       },
-      "12": {
-        "GridRowColumnDefinition": {
-          "DesignLengthInPixel": 30.0
-        }
-      },
       "29": {
         "GridRowColumnDefinition": {
           "DesignLengthInPixel": 20.0,
@@ -399,47 +394,62 @@
     "Count": 54
   },
   "Values": {
-    "6,20": "Verify Code",
-    "9,20": "Get the 6-digit code from authentication app.",
-    "12,20": "Authentication Code:",
-    "18,20": "Verify"
+    "5,20": "メールによる通知設定",
+    "8,20": "通知設定の種類を選択してください。",
+    "20,20": "OK",
+    "23,20": "キャンセル"
   },
   "AttachInfos": {
-    "13,20": {
+    "10,20": {
       "CellType": {
-        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
-        "SavedValidators": [
+        "$type": "Forguncy.RadioGroupCellType, ServerDesignerCommon",
+        "Style": 1,
+        "LayoutMode": 1,
+        "Items": [
           {
-            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+            "Value": "0",
+            "DisplayValue": "通知しない"
+          },
+          {
+            "Value": "1",
+            "DisplayValue": "すべての変更を通知する"
+          },
+          {
+            "Value": "2",
+            "DisplayValue": "自分以外のユーザーからの変更を通知する"
+          },
+          {
+            "Value": "3",
+            "DisplayValue": "自身が作成したレコードの変更のみ通知"
+          },
+          {
+            "Value": "4",
+            "DisplayValue": "自身が担当者に割り当てられているレコードの変更のみ通知"
           }
         ],
-        "TemplateKey": "_RS_NewLittleRoundCorner",
-        "WaterMark": "",
-        "ForguncyAttribute": "MFA_VerifyCode_Inputbox"
-      },
-      "DataValidationInfo": {
-        "NumberType": 6,
-        "CompareParamType": 2,
-        "FirstParamValue": "6",
-        "IgnoreBlank": false,
-        "ErrorMessage": "Please enter 6-digit code."
+        "ForguncyAttribute": "MailSubscription_Choice"
       }
     },
-    "16,20": {
-      "CellType": {
-        "$type": "Forguncy.CheckBoxCellType, ServerDesignerCommon",
-        "Caption": "Don't ask again on this computer.",
-        "Style": 1,
-        "ForguncyAttribute": "MFA_VerifyCode_TrustDevice"
-      }
-    },
-    "18,20": {
+    "20,20": {
       "CellType": {
         "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
-        "Text": "Verify",
+        "Text": "OK",
         "AutoExecute": true,
         "TemplateKey": "_RS_Main1",
-        "ForguncyAttribute": "MFA_VerifyCode_SubmitButton"
+        "ForguncyAttribute": "MailSubscription_Button"
+      }
+    },
+    "23,20": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+            "NavigateType": "back"
+          }
+        ],
+        "Text": "キャンセル",
+        "TemplateKey": "_RS_Main"
       }
     }
   },
@@ -450,30 +460,37 @@
         "FontSize": 24.0,
         "FontWeight": 1,
         "Foreground": 2,
-        "HorizontalAlignment": 3
+        "Underline": false,
+        "Strikethrough": false
       },
       {
         "FontFamily": 0,
-        "FontSize": 13.333333333333332,
-        "Foreground": 4,
-        "HorizontalAlignment": 3,
-        "VerticalAlignment": 5,
-        "WordWrap": true
+        "Foreground": 2,
+        "Underline": false,
+        "Strikethrough": false
       },
       {
         "FontFamily": 0,
-        "Foreground": 2
+        "FontSize": 13.333333015441895,
+        "Foreground": 3,
+        "VerticalAlignment": 4,
+        "WordWrap": true,
+        "Underline": false,
+        "Strikethrough": false
       },
       {
         "FontFamily": 0,
-        "Formatter": 6,
-        "HorizontalAlignment": 3
+        "FontSize": 14.666666666666666,
+        "FontWeight": 1,
+        "Underline": false,
+        "Strikethrough": false
       },
       {
         "FontFamily": 0,
-        "FontSize": 13.333333333333332,
-        "Foreground": 7,
-        "WordWrap": true
+        "FontSize": 14.666666666666666,
+        "HorizontalAlignment": 5,
+        "Underline": false,
+        "Strikethrough": false
       }
     ],
     "Types": {
@@ -481,35 +498,34 @@
         "Body",
         "Bold",
         "Text 1 25",
-        "Left",
         "Text 1 50",
         "Top",
-        "@",
-        "Text 1 35"
+        "Center"
       ]
     },
     "CellStyles": {
-      "6,20": 0,
-      "9,20": 1,
-      "12,20": 2,
-      "13,20": 3,
-      "16,20": 4
+      "5,20": 0,
+      "8,20": 1,
+      "10,20": 2,
+      "20,20": 3,
+      "23,20": 4
     },
     "SheetStyle": {
-      "FontFamily": 0
+      "FontFamily": 0,
+      "Underline": false,
+      "Strikethrough": false
     }
   },
   "Spans": [
-    "6,20,2,14",
-    "16,20,1,16",
-    "13,20,2,14",
-    "18,20,2,14",
-    "9,20,2,14"
+    "5,20,2,14",
+    "23,20,1,14",
+    "20,20,2,14",
+    "10,20,9,14"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
-    "MobilePageName": "Verify MFA Code (Mobile)",
-    "Title": "Verify Code",
+    "MobilePageName": "FGC_メールサブスクリプション_モバイル",
+    "Title": "メールサブスクリプション",
     "RowBreakLines": [],
     "RepeatRangeSettings": [],
     "IsBuiltInPage": true
@@ -520,25 +536,19 @@
   },
   "BackgroundPictures": [
     {
-      "Name": "6f3cd4d5-8311-4395-872c-d798a3db86ae.jpg",
-      "ForguncyPictureName": "PCLoginBackground",
-      "ForguncyPictureSourceType": 2,
-      "Stretch": 3,
-      "StyleInfo": {
-        "Fill": null
-      },
-      "IsAutomaticFill": false,
-      "Size": "1080,630"
-    },
-    {
-      "Name": "BackgroundPicture3",
+      "Name": "BackgroundPicture2",
+      "DisplayName": "背景画像1",
       "StyleInfo": {
         "CornerRadius": 20.0,
-        "Fill": "#FFFFFFFF"
+        "Fill": "#FFF6F6F8",
+        "StrokeDashType": 8,
+        "Stroke": "Background 1 -25",
+        "StrokeThickness": 0.0
       },
+      "IsAutomaticStroke": false,
       "IsAutomaticFill": false,
-      "Location": "340,80",
-      "Size": "400,370"
+      "Location": "340,60",
+      "Size": "400,440"
     }
   ]
-}//eyFVl4IJf3bTvH1IKJTWCJf3kbo+iOCochh/neff/A3rYfcOwQjMVOAMONHWG8BW2neOnbiXBfPrBHJc3R5f5mHZK1XBEy+Ibihp7KNO0hnczQhHRmFTTV7gCyRu7hrg0949GpkM05YTiB5y2wYqUoqtkwsEXYtHLff4wL/z5h25rZ0hSgp0NbuF1i2TcQT8OpxPNS9fz7I6KODm0GoKZel+42pVkLhLOoD0WkFB0ADb9sTz5tO2GNU8+WfFEsPgoflTq2giSW3rcU7VHv2OeYTCXoHfFT4UUiezQ3V88262eEO36C8p7RD7vSISpGB4aIAbsdJ1yjdvy1tI05ZSGiMqZFtNwNZcGx9IuSmEg/NW69LMkcQ4r1UZ73Cw8KlsQU+ggtkxcwYWFkVJtJmegC0O0YV5ekwWY+qq+1QrRgerHoG2bkAslSPreNKeCuePnWlA/AdVOzXdOR8B4vG0HVunZE/47peYdBnrMrr44fhEbzzgnxP6ECWMiC1Qq4fmcK78gKaCvIJ8Wzkl1/Ndofjgiri7zCodFW4jxXP9BDLknnzFxAgqPTNs7QV5Kw2/h+CX5NSwTCfrmlL7BA6Tae4/ls0Xf3Ca2K44QAsrsA7qEMmJcnrAG9k4vjioFKdxtGLtzZqB3M9WXRifQiRZ67XdyCQeiJNRZnerZ1udl554NvCtDBPldb8WD+sjg8tko9WKVDrkWH/KL6DAyUqCQrQgHg95IMohDBS3qCcxxcK+Nm7X6/NyskVSStJWioGTzu1h6FfPkjjiXkGVWFaHvovxd74KbzI2q8Vg9v1is+ouLnjpHYOpGsOPAuodakabYq1KkTdb8B3WTgGS4h6GO9M3ynOI44rA2K8rEnckn3UOmrQzXGyQBDIvX76MAw9eOeYcYuqB4KHwdNOwW4S2yg==|920
+}//CqengMlXVMSBFIIhrwKnp6XobK7PqibmxJZB65e6VxUNRlyyuSqguP0coUogt4Hx6TmYiWthIes0+crRRjlzhc9MLgxoMktfh6O7s6MGRs49f3r9zL/M/+cTZRJz77qzAv3GyrzvLM6ClqLmRyMbRxg22rQ0Y8rmHj0THd7pEpAlUXsguKtJebQ+C8oOW5MI0ROUHIxNAtAJ3XAsePHRMVDeN77biBbKxgKMck+QHjrOmsr65gUEnjo9fxXobRBlGzMrvCundcIPX0zY03xs0lExDnvp9phKft1Twe4ejaWuygEYtN1BhCuuGa+sQFvlX6fCBdGU2p/6pBcXs9wAHe9hpqGKv/yacVW5gZkWcU9njdd/V6Y5ON2LxPDaytJko+g/FOjgMe8aXOX+u9quRGSsVUPLj2sfFRPZ9x3YgrAVUyjFl6cv56w7+z/oMIo2ZzfQZMRva/XAm+5/erB3TYQYOC7ENvPCzc2QgnEa5OFeei7a9UY7xmDA0qyRbLq6uA4/LFwbjPGJnQLt/Ro1JyRsC99Ecs+YtDo/82HbMwu2j7RKXWFfPZfk6EyMQ7Vq+2dPOX5IOBh0hrjrqIZtS1TXWnXE2rSlhRYziqYIONkVhSyIsXDFLZhS8/tS+Faqe7vy0+oAU1xR3DgIsDdwzgfrBgdjpk+h/4oTMKtv7b5MvFrOBKhFeQkQncDlhG+5LpXgNm6PNFZAShmtOuYceIoi1hPnFliYN2JVWyKNjtVhhGokaVxjsVQLDLOMVn1uDMEQBqEF6vfbUSsDzCEPPn4UEgmpinqLcLr8Z98FdHmIyTqfNVeFpIZx/lvssWkGRWrm6M0JsILhpdYtWLnUwzsJFEqxVenkJGv81Wyz3G8QWqGuNGqP6/g3uPGgrotUrXRBqOBrkpCyu7lH0Fz+Bg==|920
