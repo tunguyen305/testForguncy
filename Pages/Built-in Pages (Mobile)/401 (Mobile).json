@@ -68,15 +68,15 @@
     "Count": 19
   },
   "Values": {
-    "13,2": "アクセス許可の問題",
-    "16,2": "ログイン中のユーザーには対象ページにアクセスする権限がありません。",
-    "20,2": "解決方法：",
+    "13,2": "Access Denied",
+    "16,2": "The signed-in user does not have the required access permission.",
+    "20,2": "How to Solve:",
     "22,2": "1.",
-    "22,3": "一旦ログオフし、異なるアカウントでログインする",
+    "22,3": "Sign out and sign in again with a different account.",
     "24,2": "2.",
-    "24,3": "Webブラウザーの戻るボタンをクリックして前ページに戻り、異なるリンクを試す",
+    "24,3": "Click on the browser's Back button and click on a different link.",
     "27,2": "3.",
-    "27,3": "管理者に問い合わせる"
+    "27,3": "Contact the administrator."
   },
   "AttachInfos": {
     "3,4": {
@@ -88,7 +88,7 @@
     "22,3": {
       "CellType": {
         "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
-        "Text": "一旦ログオフし、異なるアカウントでログインする",
+        "Text": "Sign out and sign in again with a different account.",
         "TemplateKey": "_RS_Main",
         "ForguncyAttribute": "401Login"
       }
@@ -193,7 +193,7 @@
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
-    "Title": "401ページ",
+    "Title": "401",
     "RowBreakLines": [],
     "RepeatRangeSettings": [],
     "IsBuiltInPage": true,
@@ -203,4 +203,4 @@
     "PaperSize": {},
     "Margin": {}
   }
-}//pGIrDqf5vtipIBa44DviLaD0wz/a6JCQB1+FtECUoENIqxY715f9zFXh6NXmVl90I6yu4Y5UQNjsS1Y6St4VODpOnG/GmB9zhuCD7VN+Rwtk72smg/i/tNpxL6ku1GokeKe3Tl70vAh6vV31xjE+nm052fdUS0viNKnlFEpEQsSdfO9rxR8wkomoTsxKjozNlCmT8Z8jGq1na1iX1aRGbfZNpJB1XJT2WKlTgFdeI2knRghu+m9I2uI/5A5Nnzs1BnmifphNwVWA/pDJAotAJCo6NyJvdmID1MEfXdN2zRCRqVicWl/AVP0Mc1lm5PwRI+dVsC1CSGG28TLCyhn4+Z3KMkhJmhX+mO82317XMEKdkHV1RjVFI5zjrBK1UQd45+xmoMPLXvvZvFLHpcOHy0HUsMVPyd5GUR8gJZFIV4TO+xehjv0eyY91/e5UadGqRg7d1f/xGKgKVp/Zk5xq7WtUs90Z8dABIsbfdtgqVoZ7pvwdNHFlOBo912hBHJuK2C97UwpmvNYqCF2Iu9yTCbzovS56Nm4u9B4RZjrosiKTVeGWcCilRslAaOly6dE4MmqS1zyB7vvkKGlyNKEQEznj5L1ZDV9MGzp8k0R9NTWcL63lL0L90tGie+UWOKcy3hbUao50KmT2jD1YHxDy9f1wzSO23A9HUjpVht951+I+uvXOlYnCQWjdFmI+Eu4ztQ/g0jJEDGrJsmbqTzsbE9xqwTtj4Z7b0fNDh4wNS+ZRbeyhVxTPrhsnJ0DTb99MHlrGlevwGKAEz6EK5YQTjyi2xNnMRie13lrSmoP4kbZwDlJdvgvCDP4j1HWeqbgFq2ntHMhxfW8rDWyAkkLMv5Bw3XNmK8irn944iWjmNy0wSFd68Fxr2QUnZB4McQ6OXaKrYv3HboItAgkr5cAZcA==|920
+}//5eCw1a7PDkpGXnYlvirt6+5+sOvVFKef9swQp9jTLWBwmHfO3ivTqYvh08VqMI0rWwUOzR5j++yWuw5xQgxu4QTOhNn7OWJm8/X/VpgDwq7mBFn0n+sFzc5t7eBiGkUn5DqW0wrDA4hhWXrmN8GnvmlZ8UIobpMsIAxlovHLvYIhzRgC5Bx5mzfuHM1zHbvqYIDwrnqmtrZH3a61oMp1RXle4l8X7u6UBKUuoFqdd/ZYlmlNdwN3qbPPjpIAlmu5J01iZTCUVXuEIstK+f//9+lQLCCA7xJ5jXpLA1/vVCYP2QRbqQ/y/biQq+6cTXE2xqdgVXcvhk7U+cT7JQd+NFSuanPJ6pNEMCOZdckOUIYd2tpfTs582knHWjW0J9AoJ34bcuPUpR60T1xTOLrRNY08+4GeJmsBLXbqb4pQuDLD3oQF3IOVGNTw1sy5HAT3p0iiODhghmquYGG6b4SHCRN6Yiw4uUFygUhfa+yDiZix4Kr2+y68Xj2aK2e7x8gMlySi38n+iKUseWgpCeABAjShN9CbUhPB45F1tsk+flVL4v0nz/Z3cfS/uuci9IHX5FEWDnreRqXcRserGJRdDVaO1XK9DNIUoyQP5WJicKo7N2eHiTXrvjunu7BBYdU842s1YGTxmnw2Ath0ctysgh7y0h2Fxa3vaMfKVvLqHOg19mcWIrIYU+0Q2YOVKKGWzTCJV0zAXkjpurKMEFs8s2pOf4dZwN4TNOJWo2XCxUUB4ZCSxJtfkqhfPFc7qAns+jZxDXbquYvXZKQnFP4BHRN7GPvFm9zo5DtomLm1l4zZxct3VrIa2/LfAFVqwi6a59KdTEI9+jIWsfAc0IFhp7aehKkU0oyKMVP0yOtFxu4HE5GgpX2OcDLn/ZFGmMJfTg4PLLnNdDuQdBhIIWeHnA==|920

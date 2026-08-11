@@ -13,7 +13,17 @@
           }
         }
       },
-      "29": {
+      "23": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "25": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "30": {
         "GridRowColumnDefinition": {
           "DesignLengthInPixel": 20.0,
           "Mode": 2,
@@ -26,7 +36,7 @@
         }
       }
     },
-    "Count": 31
+    "Count": 32
   },
   "Cols": {
     "RowColumnAttachedInfos": {
@@ -163,6 +173,54 @@
         }
       },
       "12": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "13": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "14": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "39": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "40": {
         "GridRowColumnDefinition": {
           "DesignLengthInPixel": 20.0,
           "Mode": 2,
@@ -322,14 +380,29 @@
     "Count": 54
   },
   "Values": {
-    "15,15": "ただいまメンテナンス中です",
-    "18,14": "ご利用の皆様にはご不便おかけし、申し訳ございません。メンテナンス終了までしばらくお待ちください。"
+    "15,16": "Access Denied",
+    "18,16": "The signed-in user does not have the required access permission.",
+    "20,16": "How to Solve:",
+    "22,16": "1.",
+    "22,17": "Sign out and sign in again with a different account.",
+    "24,16": "2.",
+    "24,17": "Click on the browser's Back button and click on a different link.",
+    "26,16": "3.",
+    "26,17": "Contact the administrator."
   },
   "AttachInfos": {
     "4,22": {
       "CellType": {
         "$type": "Forguncy.ImageCellType, ServerDesignerCommon",
-        "ImagePath": "fgc_built-in-page-maintained.png"
+        "ImagePath": "fgc_built-in-page-401.png"
+      }
+    },
+    "22,17": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "Text": "Sign out and sign in again with a different account.",
+        "TemplateKey": "_RS_Main",
+        "ForguncyAttribute": "401Login"
       }
     }
   },
@@ -339,46 +412,103 @@
         "FontFamily": 0,
         "FontSize": 34.666666666666664,
         "Foreground": 1,
-        "Formatter": 2,
-        "HorizontalAlignment": 3,
-        "VerticalAlignment": 4
+        "HorizontalAlignment": 2,
+        "VerticalAlignment": 3,
+        "Underline": false,
+        "Strikethrough": false
       },
       {
         "FontFamily": 0,
         "FontSize": 13.333333333333332,
-        "Foreground": 5,
-        "Formatter": 2,
-        "HorizontalAlignment": 3,
-        "WordWrap": true
+        "Foreground": 4,
+        "Formatter": 5,
+        "HorizontalAlignment": 6,
+        "VerticalAlignment": 3,
+        "Underline": false,
+        "Strikethrough": false
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 16.0,
+        "FontWeight": 7,
+        "Foreground": 1,
+        "HorizontalAlignment": 6,
+        "VerticalAlignment": 3,
+        "Underline": false,
+        "Strikethrough": false
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 13.333333333333332,
+        "Foreground": 4,
+        "HorizontalAlignment": 6,
+        "VerticalAlignment": 3,
+        "Underline": false,
+        "Strikethrough": false
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 13.333333333333332,
+        "HorizontalAlignment": 6,
+        "VerticalAlignment": 3,
+        "Underline": false,
+        "Strikethrough": false
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 13.333333333333332,
+        "Foreground": 4,
+        "HorizontalAlignment": 6,
+        "VerticalAlignment": 3,
+        "WordWrap": true,
+        "Underline": false,
+        "Strikethrough": false
       }
     ],
     "Types": {
       "Strs": [
         "Body",
         "Text 1 25",
-        "[AUTO]General",
         "Center",
         "Top",
-        "Text 1 50"
+        "Text 1 50",
+        "[AUTO]General",
+        "Left",
+        "Bold"
       ]
     },
     "CellStyles": {
-      "15,15": 0,
-      "18,14": 1
+      "15,16": 0,
+      "18,16": 1,
+      "20,16": 2,
+      "22,16": 3,
+      "22,17": 4,
+      "24,16": 3,
+      "24,17": 5,
+      "26,16": 3,
+      "26,17": 5
     },
     "SheetStyle": {
-      "FontFamily": 0
+      "FontFamily": 0,
+      "Underline": false,
+      "Strikethrough": false
     }
   },
   "Spans": [
     "4,22,10,10",
-    "15,15,3,24",
-    "18,14,2,26"
+    "22,16,2,1",
+    "24,16,2,1",
+    "18,16,2,22",
+    "15,16,3,22",
+    "20,16,2,22",
+    "22,17,2,21",
+    "24,17,2,21",
+    "26,17,1,21"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
-    "MobilePageName": "FGC_ただいまメンテナンス中です_モバイル",
-    "Title": "ただいまメンテナンス中です",
+    "MobilePageName": "401 (Mobile)",
+    "Title": "401",
     "RowBreakLines": [],
     "RepeatRangeSettings": [],
     "IsBuiltInPage": true
@@ -387,4 +517,4 @@
     "PaperSize": {},
     "Margin": {}
   }
-}//loFioIMroAXnCis5ai/YOrK2irK0KUsfvh3eaIwFIRV4oILkjXkV6AeKoQqpprMoA4q1SdtvJQ8B/DED5b3aBE6lREs1U9gAheohdeb0Q5z3CASy9IBaFqbUoz4F6NVGWiJtsH0oEZLDepMIZl6lnm0tGWPBM/sic5RA2jMz/jxSXa5SFG8501se/mtkV0jxqikbtKKNsrvUQ/1+a1QoNh9Ur9GtV0d+sxCWnWkNidZ20tIK96i6fLICcNDRaIgmE9sNLIeqOgQ0IPfV9IjGATzOkAf1TL656env3WnBSB6YWY5zQIVv56tbCMO30V5nrfB8GxFBN5tCtpji/S6GvBCEm4jIn1oAsM6WqmnasQ1YENOIV9sFwYzwbiL8ZbL/TzJWELw1kaIEJ02HPg/m5Rs6pI/uesXHYcr3kaLmJXAWZof5amnGJampUTDfWv+36jK9Ww9qRzh5tcuYNtTS4rQUiHK7/SkmXrPKMfmqXlvl3wvmWNLEXSKKOhyTGUww4j6C4F2JjWj6CESbVA3VeikZc/olucYMeandMC1i5/s1OPaqC3rf4jpJ0Q+j3LpOOrQY5gVTFpvDvDdoKvRdD0kVuS1ym+995TDsjkQ/nHgq67y9XFDBF3RwiJbkCfgKLCEy0XSfcyHBxKlA5FgSlP5Yqm+wA2NknEdKIgPMcCYRe8w267zjZLvz3ct4ozKYLhJfWsxcg3PnZjsuSFT59NU4yV5mR8dyp1/9n8z+oliNAk3XA5q/OMhU+/Ivfdln6rFuqoAbhgMu5/F+nHTMUSWZKjbjb1+f2aP+Li2KszXJ3yn/gYenilHTGflxWVYLgatN7KAPIyUJfhYmaY6UNoGdeOeOBnBbZ/s8tQ7SnfBs90sAK0hZRpwWQ8D6VmctnGPkiamgq8PBYCm0RqdYqQ==|920
+}//29Vc3rHzEPo8mxdEgOhDFU4MOJ4Hv9UTpYHlWYrcoI74SF6IPCzmqe7xCuYSlsdZ4/PbfnX3VVwRKUnH0TFNqitFLuguA1mb2HdtEwDdQOQBxn5iJZJrgfDSH5W0zw0FL16SBLNBRrXzxsByBRfHbHdX7DR1bzKZulTYCiasnky2Dlzan65TY5eZXfuRQeRVzrTpVuo/cAe7fasgXgY4GC69fE3rU+oGHIazBT5ve7lriRUR6lhI4+WJBF6ep0EMU+5vqwzmR2bpTIlNhA6kcKUmFWkeHGIj1cAvO+dJM4GoHBbsAI3udIKKsw4fIoJ6DTVPtdt3ineLTjuBzb8nsWMZRwZXP8d3L4gnKj/1xp/e4pnK9XfdEBGFaRsyuZnE6TTLbPaomWxJQnAf4zvXUdaFLfz9fBrL5CehWNdPDCO/gd7ZZJXEGJugscjnRs43r02BB0gO2ryifC0basg+e3BESxjdUx5XNeipE7UJSNmdjdFH8BHP0MxTFWNGf0r0/EPdobejX9UGoyLhOKa+OtC0MLmOhnAzyNAvqAi5rU5gkD64sKdIdbIxczxbODjFkD5nT3GfXg5KlYNAA15x7K133JY8DpKWUw1P1ROubX+Pq3jK7UxJVwSZed7rCtO68OSh8L5rjieixvXpLjJvp6WV1H+hbt0cxXpdcbDXwfaNTeVovGaxTkaC4ubPGT+nbvbrSzGX1LYyFLhE/MVfECABvmbOQOdWXeWGmZup9qsJCwlYIrlzKXL9Z0JfHHX9nWlls6jJkXjz5ITcOsORF7IJntpF2jqB+t/q78xehM1EwYsbNVmiOsaHGSvJOfL9Vrmo2epkadbnSchwjKfcXSx0910/0l2JdkeMpKQJxHoTeeRjxKaIcmNOxQNXuzmST7tITTM6PJmfOdSFk7/SyQ==|920
