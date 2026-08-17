@@ -1,0 +1,75 @@
+{
+  "Rows": {
+    "Count": 45
+  },
+  "Cols": {
+    "Count": 60
+  },
+  "Values": {
+    "2,4": "set focus command",
+    "5,3": "focus"
+  },
+  "AttachInfos": {
+    "5,3": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "SetFocusCommand.SetFocusCommand, SetFocusCommand",
+            "TargetCell": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=ページ1!K4"
+            }
+          }
+        ],
+        "Text": "focus",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "Background": 0
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "#FFFFFF00",
+        "Body"
+      ]
+    },
+    "CellStyles": {
+      "3,10": 0
+    },
+    "SheetStyle": {
+      "FontFamily": 1
+    }
+  },
+  "Spans": [
+    "5,3,1,4"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [
+            "FGC_LoginUser"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//PEna+jXs2efXrDIPOGK7BIuRRDTeeuMuHymshW3Hj8ihVxUdjTAH9MpumiRZukR/Dy4XNdoKxYl7Ra+eRe4xBVtl3Nk49VRpC5YgDA19yRvdjtfNUtzpTkCR92wXimogcM/Ivy5KwKuiVpwgbNCaZxVsdWTQ68+mh28l+cy5KotfrRojBxlj335c8Hjv0XVCCwyEg08t3yVx7J+gJAIjcJ2FnPMglgm5Wo4RXi8BEnm2U6hN+kFRSvgURL4S09w7tMHEe6yfMsn34G7QKaXmH2zv6s7cVRplSbwe6OjnBVc/8mOgbh0dYhhugWzSa6XqEr/8Wo0lOenc8z9BRXnAdXX0nj7KJkyfL8SMq0DUGUqlDg4XT/ipUK3TmvBurz/2DTD5XGL/4+n6OX8gO/0376HqVAyhG9PvIARyEQc38XS82fjWNo30pudMoZbgU7vW29LuJ9VPUhGPs2ZOgNDMZNc3FgVjylY7YGucY9MnmrfDfKHu2hbzxJzWxQSrM1+zOp/UavX8uGKAo58KYOCaE3QYjSEKlcWtl508DzK7YOYe2NlXjxxDkmJHlsDB0z3P3FQ/R5xFhYeHFM3bsemnvPMhlo4nYlpB4P1LLajiCxBXs2UH9SaGdv+DLnq6p8BD+q99vytecn5tkqXFHeboMf6vJ2Lj+pOIVnbrgJ+2wx9aFEuELi2bfM0pCqF94OnQJl0VDipbmm6W/vXY/GEgJSA3pKRRL85DWLpXkFT/QRX+irb9XJVM0xO/j4ADa3S6g/D6j1Yuds4S72D6eW70svfxagmKXg5rLDI98As8682ni1F2hJRNyooVQm221z6ultcm2TJBrSGCmj1y6XULBp34hU2I5YQzzmLohhJKg9eTWhYkk6oAAxcii1OO2ZQK/Iu/qzkTiuwrDXd1rJU6KA==|920
