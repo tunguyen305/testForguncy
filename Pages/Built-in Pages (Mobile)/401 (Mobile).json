@@ -1,0 +1,206 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "23": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "26": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "31": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 32
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "18": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 19
+  },
+  "Values": {
+    "13,2": "Access Denied",
+    "16,2": "The signed-in user does not have the required access permission.",
+    "20,2": "How to Solve:",
+    "22,2": "1.",
+    "22,3": "Sign out and sign in again with a different account.",
+    "24,2": "2.",
+    "24,3": "Click on the browser's Back button and click on a different link.",
+    "27,2": "3.",
+    "27,3": "Contact the administrator."
+  },
+  "AttachInfos": {
+    "3,4": {
+      "CellType": {
+        "$type": "Forguncy.ImageCellType, ServerDesignerCommon",
+        "ImagePath": "fgc_built-in-page-401.png"
+      }
+    },
+    "22,3": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "Text": "Sign out and sign in again with a different account.",
+        "TemplateKey": "_RS_Main",
+        "ForguncyAttribute": "401Login"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0,
+        "FontSize": 24.0,
+        "FontWeight": 1,
+        "Foreground": 2,
+        "Formatter": 3,
+        "HorizontalAlignment": 4
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 13.333333015441895,
+        "Foreground": 5,
+        "Formatter": 3,
+        "HorizontalAlignment": 6,
+        "VerticalAlignment": 7,
+        "WordWrap": true
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 16.0,
+        "FontWeight": 1,
+        "Foreground": 2,
+        "Formatter": 3
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 13.333333333333332,
+        "Foreground": 5,
+        "HorizontalAlignment": 6,
+        "VerticalAlignment": 7,
+        "Underline": false,
+        "Strikethrough": false
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 13.333333015441895,
+        "Foreground": null,
+        "Formatter": 3,
+        "Underline": false
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 13.333333015441895,
+        "Foreground": 5,
+        "Formatter": 3,
+        "VerticalAlignment": 7,
+        "WordWrap": true
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 13.333333015441895,
+        "Foreground": 5,
+        "Formatter": 3
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body",
+        "Bold",
+        "Text 1 25",
+        "[AUTO]General",
+        "Center",
+        "Text 1 50",
+        "Left",
+        "Top",
+        "#FF000000"
+      ]
+    },
+    "CellStyles": {
+      "13,2": 0,
+      "16,2": 1,
+      "20,2": 2,
+      "22,2": 3,
+      "22,3": 4,
+      "24,2": 3,
+      "24,3": 5,
+      "27,2": 3,
+      "27,3": 6
+    },
+    "SheetStyle": {
+      "FontFamily": 0,
+      "FontSize": 13.333333015441895,
+      "Foreground": 8
+    }
+  },
+  "Spans": [
+    "3,4,9,11",
+    "13,2,2,15",
+    "16,2,3,15",
+    "20,2,2,15",
+    "22,2,2,1",
+    "24,2,2,1",
+    "24,3,2,14",
+    "22,3,1,14"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "Title": "401",
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "IsBuiltInPage": true,
+    "IsMobilePage": true
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//5eCw1a7PDkpGXnYlvirt6+5+sOvVFKef9swQp9jTLWBwmHfO3ivTqYvh08VqMI0rWwUOzR5j++yWuw5xQgxu4QTOhNn7OWJm8/X/VpgDwq7mBFn0n+sFzc5t7eBiGkUn5DqW0wrDA4hhWXrmN8GnvmlZ8UIobpMsIAxlovHLvYIhzRgC5Bx5mzfuHM1zHbvqYIDwrnqmtrZH3a61oMp1RXle4l8X7u6UBKUuoFqdd/ZYlmlNdwN3qbPPjpIAlmu5J01iZTCUVXuEIstK+f//9+lQLCCA7xJ5jXpLA1/vVCYP2QRbqQ/y/biQq+6cTXE2xqdgVXcvhk7U+cT7JQd+NFSuanPJ6pNEMCOZdckOUIYd2tpfTs582knHWjW0J9AoJ34bcuPUpR60T1xTOLrRNY08+4GeJmsBLXbqb4pQuDLD3oQF3IOVGNTw1sy5HAT3p0iiODhghmquYGG6b4SHCRN6Yiw4uUFygUhfa+yDiZix4Kr2+y68Xj2aK2e7x8gMlySi38n+iKUseWgpCeABAjShN9CbUhPB45F1tsk+flVL4v0nz/Z3cfS/uuci9IHX5FEWDnreRqXcRserGJRdDVaO1XK9DNIUoyQP5WJicKo7N2eHiTXrvjunu7BBYdU842s1YGTxmnw2Ath0ctysgh7y0h2Fxa3vaMfKVvLqHOg19mcWIrIYU+0Q2YOVKKGWzTCJV0zAXkjpurKMEFs8s2pOf4dZwN4TNOJWo2XCxUUB4ZCSxJtfkqhfPFc7qAns+jZxDXbquYvXZKQnFP4BHRN7GPvFm9zo5DtomLm1l4zZxct3VrIa2/LfAFVqwi6a59KdTEI9+jIWsfAc0IFhp7aehKkU0oyKMVP0yOtFxu4HE5GgpX2OcDLn/ZFGmMJfTg4PLLnNdDuQdBhIIWeHnA==|920
