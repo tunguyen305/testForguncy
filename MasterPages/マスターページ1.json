@@ -1,0 +1,2063 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      }
+    },
+    "Count": 36
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "64": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 143.0
+        }
+      }
+    },
+    "InLogicalVisibleIndexes": [
+      64
+    ],
+    "Count": 65
+  },
+  "Values": {
+    "0,64": "%CurrentUser.UserName%",
+    "3,15": "%PageTitle%",
+    "5,1": "HOME"
+  },
+  "AttachInfos": {
+    "2,54": {
+      "CellType": {
+        "$type": "Forguncy.CurrentUserCellType, ServerDesignerCommon",
+        "CellCustomValue": "%CurrentUser%",
+        "ShowCircleUserPicture": true,
+        "NavigateSettingWhenLogout": {
+          "NavigateWhenLogoutMode": 1
+        }
+      }
+    },
+    "5,1": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+            "NavigateType": "back"
+          }
+        ],
+        "Text": "HOME",
+        "ClickMode": 1
+      }
+    },
+    "7,0": {
+      "CellType": {
+        "$type": "Forguncy.CustomMenu.ForguncyMenuCellType, Forguncy.CustomMenu",
+        "TemplateKey": "_RS_Dark_ThemeStyle2",
+        "Items": [
+          {
+            "Value": "受注・販売管理",
+            "Text": "受注・販売管理",
+            "IconPath": "Navigation/250_cart_3.svg",
+            "SelectedIconColor": "Background 1",
+            "SelectedIconColorUseItemColor": true,
+            "IconColorUseItemColor": true,
+            "IsOldMenuPath": false,
+            "CanVisitRoleList": [
+              "FGC_Anonymous"
+            ],
+            "SubItems": [
+              {
+                "Value": "作業指示",
+                "Text": "作業指示",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                    "NavigateType": "back"
+                  }
+                ],
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              },
+              {
+                "Value": "作業指示リスト",
+                "Text": "作業指示リスト",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                    "NavigateType": "back"
+                  }
+                ],
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              },
+              {
+                "Value": "受注管理",
+                "Text": "受注管理",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                    "NavigateType": "back"
+                  }
+                ],
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              },
+              {
+                "Value": "配送予定表",
+                "Text": "配送予定表",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                    "NavigateType": "back"
+                  }
+                ],
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              },
+              {
+                "Value": "発送伝票【発行】",
+                "Text": "発送伝票【発行】",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                    "NavigateType": "back"
+                  }
+                ],
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              },
+              {
+                "Value": "発送伝票【再発行】",
+                "Text": "発送伝票【再発行】",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                    "NavigateType": "back"
+                  }
+                ],
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              },
+              {
+                "Value": "納品書管理",
+                "Text": "納品書管理",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                    "NavigateType": "back"
+                  }
+                ],
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              },
+              {
+                "Value": "元帳問合せ",
+                "Text": "元帳問合せ",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                    "NavigateType": "back"
+                  }
+                ],
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              }
+            ]
+          },
+          {
+            "Value": "浮伝処理",
+            "Text": "浮伝処理",
+            "IconPath": "Application/130_list_2.svg",
+            "SelectedIconColor": "Background 1",
+            "SelectedIconColorUseItemColor": true,
+            "IconColorUseItemColor": true,
+            "IsOldMenuPath": false,
+            "CanVisitRoleList": [
+              "FGC_Anonymous"
+            ],
+            "SubItems": [
+              {
+                "Value": "浮伝管理",
+                "Text": "浮伝管理",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                    "NavigateType": "back"
+                  }
+                ],
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              },
+              {
+                "Value": "浮伝出庫",
+                "Text": "浮伝出庫",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                    "NavigateType": "back"
+                  }
+                ],
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              },
+              {
+                "Value": "客先在庫表",
+                "Text": "客先在庫表",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                    "NavigateType": "back"
+                  }
+                ],
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              },
+              {
+                "Value": "浮伝元帳",
+                "Text": "浮伝元帳",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                    "NavigateType": "back"
+                  }
+                ],
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              }
+            ]
+          },
+          {
+            "Value": "入金処理",
+            "Text": "入金処理",
+            "IconPath": "Navigation/249_favorite_3.svg",
+            "SelectedIconColor": "Background 1",
+            "SelectedIconColorUseItemColor": true,
+            "IconColorUseItemColor": true,
+            "IsOldMenuPath": false
+          },
+          {
+            "Value": "生産管理",
+            "Text": "生産管理",
+            "IconPath": "Application/135_calculator_2.svg",
+            "SelectedIconColor": "Background 1",
+            "SelectedIconColorUseItemColor": true,
+            "IconColorUseItemColor": true,
+            "IsOldMenuPath": false
+          },
+          {
+            "Value": "帳票処理",
+            "Text": "帳票処理",
+            "IconPath": "Navigation/183_table_2.svg",
+            "SelectedIconColor": "Background 1",
+            "SelectedIconColorUseItemColor": true,
+            "IconColorUseItemColor": true,
+            "IsOldMenuPath": false,
+            "CanVisitRoleList": [
+              "FGC_Anonymous"
+            ],
+            "SubItems": [
+              {
+                "Value": "販売データ取込",
+                "Text": "販売データ取込",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                    "NavigateType": "back"
+                  }
+                ],
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              },
+              {
+                "Value": "全葬連",
+                "Text": "全葬連",
+                "IconPath": "Arrow/350_right_arrow.svg",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ],
+                "SubItems": [
+                  {
+                    "Value": "明細・証紙納付表",
+                    "Text": "明細・証紙納付表",
+                    "SelectedIconColor": "Background 1",
+                    "SelectedIconColorUseItemColor": true,
+                    "IconColorUseItemColor": true,
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                        "NavigateType": "back"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "Value": "証紙納付表(得意先・商品)",
+                    "Text": "証紙納付表(得意先・商品)",
+                    "SelectedIconColor": "Background 1",
+                    "SelectedIconColorUseItemColor": true,
+                    "IconColorUseItemColor": true,
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                        "NavigateType": "back"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "Value": "証紙納付表 (得意先)",
+                    "Text": "証紙納付表 (得意先)",
+                    "SelectedIconColor": "Background 1",
+                    "SelectedIconColorUseItemColor": true,
+                    "IconColorUseItemColor": true,
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                        "NavigateType": "back"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "Value": "証紙納付表 (得意先名)",
+                    "Text": "証紙納付表 (得意先名)",
+                    "SelectedIconColor": "Background 1",
+                    "SelectedIconColorUseItemColor": true,
+                    "IconColorUseItemColor": true,
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                        "NavigateType": "back"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  }
+                ]
+              },
+              {
+                "Value": "組合",
+                "Text": "組合",
+                "IconPath": "Arrow/350_right_arrow.svg",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ],
+                "SubItems": [
+                  {
+                    "Value": "歩引集計表(得意先)",
+                    "Text": "歩引集計表(得意先)",
+                    "SelectedIconColor": "Background 1",
+                    "SelectedIconColorUseItemColor": true,
+                    "IconColorUseItemColor": true,
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                        "NavigateType": "back"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "Value": "歩引集計表(商品)",
+                    "Text": "歩引集計表(商品)",
+                    "SelectedIconColor": "Background 1",
+                    "SelectedIconColorUseItemColor": true,
+                    "IconColorUseItemColor": true,
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                        "NavigateType": "back"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  }
+                ]
+              },
+              {
+                "Value": "全冠協",
+                "Text": "全冠協",
+                "IconPath": "Arrow/350_right_arrow.svg",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ],
+                "SubItems": [
+                  {
+                    "Value": "売上表",
+                    "Text": "売上表",
+                    "SelectedIconColor": "Background 1",
+                    "SelectedIconColorUseItemColor": true,
+                    "IconColorUseItemColor": true,
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                        "NavigateType": "back"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  }
+                ]
+              },
+              {
+                "Value": "全中協",
+                "Text": "全中協",
+                "IconPath": "Arrow/350_right_arrow.svg",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ],
+                "SubItems": [
+                  {
+                    "Value": "売上伝票一覧表",
+                    "Text": "売上伝票一覧表",
+                    "SelectedIconColor": "Background 1",
+                    "SelectedIconColorUseItemColor": true,
+                    "IconColorUseItemColor": true,
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                        "NavigateType": "back"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "Value": "売上集計表",
+                    "Text": "売上集計表",
+                    "SelectedIconColor": "Background 1",
+                    "SelectedIconColorUseItemColor": true,
+                    "IconColorUseItemColor": true,
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                        "NavigateType": "back"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "Value": "請求データ作成",
+                    "Text": "請求データ作成",
+                    "SelectedIconColor": "Background 1",
+                    "SelectedIconColorUseItemColor": true,
+                    "IconColorUseItemColor": true,
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                        "NavigateType": "back"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  }
+                ]
+              },
+              {
+                "Value": "アキガワ",
+                "Text": "アキガワ",
+                "IconPath": "Arrow/350_right_arrow.svg",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ],
+                "SubItems": [
+                  {
+                    "Value": "売上表",
+                    "Text": "売上表",
+                    "SelectedIconColor": "Background 1",
+                    "SelectedIconColorUseItemColor": true,
+                    "IconColorUseItemColor": true,
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                        "NavigateType": "back"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  }
+                ]
+              },
+              {
+                "Value": "請求データ",
+                "Text": "請求データ",
+                "IconPath": "Arrow/350_right_arrow.svg",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ],
+                "SubItems": [
+                  {
+                    "Value": "請求データ出力",
+                    "Text": "請求データ出力",
+                    "SelectedIconColor": "Background 1",
+                    "SelectedIconColorUseItemColor": true,
+                    "IconColorUseItemColor": true,
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                        "NavigateType": "back"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  }
+                ]
+              },
+              {
+                "Value": "ラベル",
+                "Text": "ラベル",
+                "IconPath": "Arrow/350_right_arrow.svg",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ],
+                "SubItems": [
+                  {
+                    "Value": "発送ラベル",
+                    "Text": "発送ラベル",
+                    "SelectedIconColor": "Background 1",
+                    "SelectedIconColorUseItemColor": true,
+                    "IconColorUseItemColor": true,
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                        "NavigateType": "back"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "Value": "DMラベル",
+                    "Text": "DMラベル",
+                    "SelectedIconColor": "Background 1",
+                    "SelectedIconColorUseItemColor": true,
+                    "IconColorUseItemColor": true,
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                        "NavigateType": "back"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Value": "仕入業務",
+            "Text": "仕入業務",
+            "IconPath": "Application/109_download_4.svg",
+            "SelectedIconColor": "Background 1",
+            "SelectedIconColorUseItemColor": true,
+            "IconColorUseItemColor": true,
+            "IsOldMenuPath": false,
+            "CanVisitRoleList": [
+              "FGC_Anonymous"
+            ],
+            "SubItems": [
+              {
+                "Value": "仕入処理",
+                "Text": "仕入処理",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                    "NavigateType": "back"
+                  }
+                ],
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              },
+              {
+                "Value": "支払処理",
+                "Text": "支払処理",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                    "NavigateType": "back"
+                  }
+                ],
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              },
+              {
+                "Value": "買掛・未払・顧問料一覧表",
+                "Text": "買掛・未払・顧問料一覧表",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                    "NavigateType": "back"
+                  }
+                ],
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              },
+              {
+                "Value": "仕入先元帳",
+                "Text": "仕入先元帳",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                    "NavigateType": "back"
+                  }
+                ],
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              },
+              {
+                "Value": "仕入先別商品集計表",
+                "Text": "仕入先別商品集計表",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                    "NavigateType": "back"
+                  }
+                ],
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              },
+              {
+                "Value": "商品別仕入先集計表",
+                "Text": "商品別仕入先集計表",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                    "NavigateType": "back"
+                  }
+                ],
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              },
+              {
+                "Value": "仕入先年報",
+                "Text": "仕入先年報",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                    "NavigateType": "back"
+                  }
+                ],
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              },
+              {
+                "Value": "仕入商品問い合わせ",
+                "Text": "仕入商品問い合わせ",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                    "NavigateType": "back"
+                  }
+                ],
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              },
+              {
+                "Value": "仕入最終残高照会",
+                "Text": "仕入最終残高照会",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                    "NavigateType": "back"
+                  }
+                ],
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              },
+              {
+                "Value": "仕入残高照会",
+                "Text": "仕入残高照会",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                    "NavigateType": "back"
+                  }
+                ],
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              },
+              {
+                "Value": "仕入月次処理",
+                "Text": "仕入月次処理",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                    "NavigateType": "back"
+                  }
+                ],
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              }
+            ]
+          },
+          {
+            "Value": "外注管理",
+            "Text": "外注管理",
+            "IconPath": "Navigation/238_user_8.svg",
+            "SelectedIconColor": "Background 1",
+            "SelectedIconColorUseItemColor": true,
+            "IconColorUseItemColor": true,
+            "IsOldMenuPath": false,
+            "CanVisitRoleList": [
+              "FGC_Anonymous"
+            ],
+            "SubItems": [
+              {
+                "Value": "納品モニタ",
+                "Text": "納品モニタ",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                    "NavigateType": "back"
+                  }
+                ],
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              },
+              {
+                "Value": "外注費一覧表",
+                "Text": "外注費一覧表",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                    "NavigateType": "back"
+                  }
+                ],
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              },
+              {
+                "Value": "月次台帳",
+                "Text": "月次台帳",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                    "NavigateType": "back"
+                  }
+                ],
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              },
+              {
+                "Value": "月次振込表",
+                "Text": "月次振込表",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                    "NavigateType": "back"
+                  }
+                ],
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              },
+              {
+                "Value": "外注費年報",
+                "Text": "外注費年報",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                    "NavigateType": "back"
+                  }
+                ],
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              }
+            ]
+          },
+          {
+            "Value": "請求・月次業務",
+            "Text": "請求・月次業務",
+            "IconPath": "Application/139_time_1.svg",
+            "SelectedIconColor": "Background 1",
+            "SelectedIconColorUseItemColor": true,
+            "IconColorUseItemColor": true,
+            "IsOldMenuPath": false
+          },
+          {
+            "Value": "元帳処理",
+            "Text": "元帳処理",
+            "IconPath": "Application/030_edit_file_1.svg",
+            "SelectedIconColor": "Background 1",
+            "SelectedIconColorUseItemColor": true,
+            "IconColorUseItemColor": true,
+            "IsOldMenuPath": false
+          },
+          {
+            "Value": "棚卸",
+            "Text": "棚卸",
+            "IconPath": "Application/132_title_1.svg",
+            "SelectedIconColor": "Background 1",
+            "SelectedIconColorUseItemColor": true,
+            "IconColorUseItemColor": true,
+            "IsOldMenuPath": false,
+            "CanVisitRoleList": [
+              "FGC_Anonymous"
+            ],
+            "SubItems": [
+              {
+                "Value": "棚卸入力",
+                "Text": "棚卸入力",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                    "NavigateType": "back"
+                  }
+                ],
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              },
+              {
+                "Value": "商品別棚卸表",
+                "Text": "商品別棚卸表",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                    "NavigateType": "back"
+                  }
+                ],
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              },
+              {
+                "Value": "商品別棚卸表(営業所)",
+                "Text": "商品別棚卸表(営業所)",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                    "NavigateType": "back"
+                  }
+                ],
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              },
+              {
+                "Value": "棚卸商品設定",
+                "Text": "棚卸商品設定",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                    "NavigateType": "back"
+                  }
+                ],
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              }
+            ]
+          },
+          {
+            "Value": "保守",
+            "Text": "保守",
+            "IconPath": "Application/053_settings_4.svg",
+            "SelectedIconColor": "Background 1",
+            "SelectedIconColorUseItemColor": true,
+            "IconColorUseItemColor": true,
+            "IsOldMenuPath": false,
+            "CanVisitRoleList": [
+              "FGC_Anonymous"
+            ],
+            "SubItems": [
+              {
+                "Value": "共通",
+                "Text": "共通",
+                "IconPath": "Arrow/350_right_arrow.svg",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ],
+                "SubItems": [
+                  {
+                    "Value": "定型文",
+                    "Text": "定型文",
+                    "SelectedIconColor": "Background 1",
+                    "SelectedIconColorUseItemColor": true,
+                    "IconColorUseItemColor": true,
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.ShowPopupCommand, ServerDesignerCommon",
+                        "PopupDisplayMode": 3,
+                        "DrawerDirection": 2,
+                        "NavigateType": "back"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "Value": "税率管理",
+                    "Text": "税率管理",
+                    "SelectedIconColor": "Background 1",
+                    "SelectedIconColorUseItemColor": true,
+                    "IconColorUseItemColor": true,
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                        "NavigateType": "back"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "Value": "部門",
+                    "Text": "部門",
+                    "SelectedIconColor": "Background 1",
+                    "SelectedIconColorUseItemColor": true,
+                    "IconColorUseItemColor": true,
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                        "NavigateType": "back"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "Value": "営業所",
+                    "Text": "営業所",
+                    "SelectedIconColor": "Background 1",
+                    "SelectedIconColorUseItemColor": true,
+                    "IconColorUseItemColor": true,
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                        "NavigateType": "back"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "Value": "システム設定",
+                    "Text": "システム設定",
+                    "SelectedIconColor": "Background 1",
+                    "SelectedIconColorUseItemColor": true,
+                    "IconColorUseItemColor": true,
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.ShowPopupCommand, ServerDesignerCommon",
+                        "NavigateType": "back"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "Administrator"
+                    ]
+                  },
+                  {
+                    "Value": "機能一覧",
+                    "Text": "機能一覧",
+                    "SelectedIconColor": "Background 1",
+                    "SelectedIconColorUseItemColor": true,
+                    "IconColorUseItemColor": true,
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                        "NavigateType": "back"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "Administrator"
+                    ]
+                  }
+                ]
+              },
+              {
+                "Value": "商品",
+                "Text": "商品",
+                "IconPath": "Arrow/350_right_arrow.svg",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ],
+                "SubItems": [
+                  {
+                    "Value": "商品マスタ",
+                    "Text": "商品マスタ",
+                    "SelectedIconColor": "Background 1",
+                    "SelectedIconColorUseItemColor": true,
+                    "IconColorUseItemColor": true,
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                        "NavigateType": "back"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "Value": "単価種別マスタ",
+                    "Text": "単価種別マスタ",
+                    "SelectedIconColor": "Background 1",
+                    "SelectedIconColorUseItemColor": true,
+                    "IconColorUseItemColor": true,
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                        "NavigateType": "back"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "Value": "商品歩引区分マスタ",
+                    "Text": "商品歩引区分マスタ",
+                    "SelectedIconColor": "Background 1",
+                    "SelectedIconColorUseItemColor": true,
+                    "IconColorUseItemColor": true,
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                        "NavigateType": "back"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "Value": "[A]商品パラメータ種別",
+                    "Text": "[A]商品パラメータ種別",
+                    "SelectedIconColor": "Background 1",
+                    "SelectedIconColorUseItemColor": true,
+                    "IconColorUseItemColor": true,
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                        "NavigateType": "back"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "Administrator"
+                    ]
+                  }
+                ]
+              },
+              {
+                "Value": "得意先",
+                "Text": "得意先",
+                "IconPath": "Arrow/350_right_arrow.svg",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ],
+                "SubItems": [
+                  {
+                    "Value": "得意先マスタ",
+                    "Text": "得意先マスタ",
+                    "SelectedIconColor": "Background 1",
+                    "SelectedIconColorUseItemColor": true,
+                    "IconColorUseItemColor": true,
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                        "NavigateType": "back"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "Value": "組合マスタ",
+                    "Text": "組合マスタ",
+                    "SelectedIconColor": "Background 1",
+                    "SelectedIconColorUseItemColor": true,
+                    "IconColorUseItemColor": true,
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                        "NavigateType": "back"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "Value": "組合斡旋除外設定",
+                    "Text": "組合斡旋除外設定",
+                    "SelectedIconColor": "Background 1",
+                    "SelectedIconColorUseItemColor": true,
+                    "IconColorUseItemColor": true,
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                        "NavigateType": "back"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "Value": "歩引区分マスタ",
+                    "Text": "歩引区分マスタ",
+                    "SelectedIconColor": "Background 1",
+                    "SelectedIconColorUseItemColor": true,
+                    "IconColorUseItemColor": true,
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                        "NavigateType": "back"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "Value": "歩引除外設定",
+                    "Text": "歩引除外設定",
+                    "SelectedIconColor": "Background 1",
+                    "SelectedIconColorUseItemColor": true,
+                    "IconColorUseItemColor": true,
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                        "NavigateType": "back"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "Value": "[A]得意先パラメータ種別",
+                    "Text": "[A]得意先パラメータ種別",
+                    "SelectedIconColor": "Background 1",
+                    "SelectedIconColorUseItemColor": true,
+                    "IconColorUseItemColor": true,
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                        "NavigateType": "back"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "Administrator"
+                    ]
+                  },
+                  {
+                    "Value": "地区マスタ",
+                    "Text": "地区マスタ",
+                    "SelectedIconColor": "Background 1",
+                    "SelectedIconColorUseItemColor": true,
+                    "IconColorUseItemColor": true,
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                        "NavigateType": "back"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "Administrator"
+                    ]
+                  }
+                ]
+              },
+              {
+                "Value": "得意先(アキガワ)",
+                "Text": "得意先(アキガワ)",
+                "IconPath": "Arrow/350_right_arrow.svg",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ],
+                "SubItems": [
+                  {
+                    "Value": "得意先マスタ",
+                    "Text": "得意先マスタ",
+                    "SelectedIconColor": "Background 1",
+                    "SelectedIconColorUseItemColor": true,
+                    "IconColorUseItemColor": true,
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                        "NavigateType": "back"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "Value": "[A]得意先パラメータ種別",
+                    "Text": "[A]得意先パラメータ種別",
+                    "SelectedIconColor": "Background 1",
+                    "SelectedIconColorUseItemColor": true,
+                    "IconColorUseItemColor": true,
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                        "NavigateType": "back"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "Administrator"
+                    ]
+                  }
+                ]
+              },
+              {
+                "Value": "担当・単価",
+                "Text": "担当・単価",
+                "IconPath": "Arrow/350_right_arrow.svg",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ],
+                "SubItems": [
+                  {
+                    "Value": "担当者マスタ",
+                    "Text": "担当者マスタ",
+                    "SelectedIconColor": "Background 1",
+                    "SelectedIconColorUseItemColor": true,
+                    "IconColorUseItemColor": true,
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                        "NavigateType": "back"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "Value": "得意先別単価マスタ",
+                    "Text": "得意先別単価マスタ",
+                    "SelectedIconColor": "Background 1",
+                    "SelectedIconColorUseItemColor": true,
+                    "IconColorUseItemColor": true,
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                        "NavigateType": "back"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "Value": "単価登録申請",
+                    "Text": "単価登録申請",
+                    "SelectedIconColor": "Background 1",
+                    "SelectedIconColorUseItemColor": true,
+                    "IconColorUseItemColor": true,
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                        "NavigateType": "back"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "Value": "得意先ｸﾞﾙｰﾌﾟ確認",
+                    "Text": "得意先ｸﾞﾙｰﾌﾟ確認",
+                    "SelectedIconColor": "Background 1",
+                    "SelectedIconColorUseItemColor": true,
+                    "IconColorUseItemColor": true,
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.ShowPopupCommand, ServerDesignerCommon",
+                        "NavigateType": "back"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  }
+                ]
+              },
+              {
+                "Value": "仕入関連",
+                "Text": "仕入関連",
+                "IconPath": "Arrow/350_right_arrow.svg",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ],
+                "SubItems": [
+                  {
+                    "Value": "仕入先マスタ",
+                    "Text": "仕入先マスタ",
+                    "SelectedIconColor": "Background 1",
+                    "SelectedIconColorUseItemColor": true,
+                    "IconColorUseItemColor": true,
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                        "NavigateType": "back"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "Value": "仕入品マスタ",
+                    "Text": "仕入品マスタ",
+                    "SelectedIconColor": "Background 1",
+                    "SelectedIconColorUseItemColor": true,
+                    "IconColorUseItemColor": true,
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                        "NavigateType": "back"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "Value": "仕入品単価マスタ",
+                    "Text": "仕入品単価マスタ",
+                    "SelectedIconColor": "Background 1",
+                    "SelectedIconColorUseItemColor": true,
+                    "IconColorUseItemColor": true,
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                        "NavigateType": "back"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "Value": "仕入科目マスタ",
+                    "Text": "仕入科目マスタ",
+                    "SelectedIconColor": "Background 1",
+                    "SelectedIconColorUseItemColor": true,
+                    "IconColorUseItemColor": true,
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                        "NavigateType": "back"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "Value": "仕入部門マスタ",
+                    "Text": "仕入部門マスタ",
+                    "SelectedIconColor": "Background 1",
+                    "SelectedIconColorUseItemColor": true,
+                    "IconColorUseItemColor": true,
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                        "NavigateType": "back"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "Value": "営業所(仕入用)",
+                    "Text": "営業所(仕入用)",
+                    "SelectedIconColor": "Background 1",
+                    "SelectedIconColorUseItemColor": true,
+                    "IconColorUseItemColor": true,
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                        "NavigateType": "back"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "Value": "仕入・支払全データ",
+                    "Text": "仕入・支払全データ",
+                    "SelectedIconColor": "Background 1",
+                    "SelectedIconColorUseItemColor": true,
+                    "IconColorUseItemColor": true,
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                        "NavigateType": "back"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  }
+                ]
+              },
+              {
+                "Value": "外注関連",
+                "Text": "外注関連",
+                "IconPath": "Arrow/350_right_arrow.svg",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ],
+                "SubItems": [
+                  {
+                    "Value": "外注先マスタ",
+                    "Text": "外注先マスタ",
+                    "SelectedIconColor": "Background 1",
+                    "SelectedIconColorUseItemColor": true,
+                    "IconColorUseItemColor": true,
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                        "NavigateType": "back"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "Value": "外注製品マスタ",
+                    "Text": "外注製品マスタ",
+                    "SelectedIconColor": "Background 1",
+                    "SelectedIconColorUseItemColor": true,
+                    "IconColorUseItemColor": true,
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                        "NavigateType": "back"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "Value": "外注製品単価マスタ",
+                    "Text": "外注製品単価マスタ",
+                    "SelectedIconColor": "Background 1",
+                    "SelectedIconColorUseItemColor": true,
+                    "IconColorUseItemColor": true,
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                        "NavigateType": "back"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "Value": "外注先別単価マスタ",
+                    "Text": "外注先別単価マスタ",
+                    "SelectedIconColor": "Background 1",
+                    "SelectedIconColorUseItemColor": true,
+                    "IconColorUseItemColor": true,
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                        "NavigateType": "back"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "Value": "外注部門マスタ",
+                    "Text": "外注部門マスタ",
+                    "SelectedIconColor": "Background 1",
+                    "SelectedIconColorUseItemColor": true,
+                    "IconColorUseItemColor": true,
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                        "NavigateType": "back"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  }
+                ]
+              },
+              {
+                "Value": "伝票",
+                "Text": "伝票",
+                "IconPath": "Arrow/350_right_arrow.svg",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CanVisitRoleList": [
+                  "Administrator",
+                  "MaintenanceUser"
+                ],
+                "SubItems": [
+                  {
+                    "Value": "伝票一覧",
+                    "Text": "伝票一覧",
+                    "SelectedIconColor": "Background 1",
+                    "SelectedIconColorUseItemColor": true,
+                    "IconColorUseItemColor": true,
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                        "NavigateType": "back"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "Administrator",
+                      "MaintenanceUser"
+                    ]
+                  },
+                  {
+                    "Value": "浮伝商品",
+                    "Text": "浮伝商品",
+                    "SelectedIconColor": "Background 1",
+                    "SelectedIconColorUseItemColor": true,
+                    "IconColorUseItemColor": true,
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                        "NavigateType": "back"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "Administrator",
+                      "MaintenanceUser"
+                    ]
+                  }
+                ]
+              },
+              {
+                "Value": "データ移行",
+                "Text": "データ移行",
+                "IconPath": "Arrow/350_right_arrow.svg",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CanVisitRoleList": [
+                  "OldDataTransfer"
+                ],
+                "SubItems": [
+                  {
+                    "Value": "旧データ移行",
+                    "Text": "旧データ移行",
+                    "SelectedIconColor": "Background 1",
+                    "SelectedIconColorUseItemColor": true,
+                    "IconColorUseItemColor": true,
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                        "NavigateType": "back"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "OldDataTransfer"
+                    ]
+                  }
+                ]
+              },
+              {
+                "Value": "履歴",
+                "Text": "履歴",
+                "IconPath": "Arrow/350_right_arrow.svg",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ],
+                "SubItems": [
+                  {
+                    "Value": "変更履歴",
+                    "Text": "変更履歴",
+                    "SelectedIconColor": "Background 1",
+                    "SelectedIconColorUseItemColor": true,
+                    "IconColorUseItemColor": true,
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                        "NavigateType": "back"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  },
+                  {
+                    "Value": "変更履歴(差分)",
+                    "Text": "変更履歴(差分)",
+                    "SelectedIconColor": "Background 1",
+                    "SelectedIconColorUseItemColor": true,
+                    "IconColorUseItemColor": true,
+                    "IsOldMenuPath": false,
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                        "NavigateType": "back"
+                      }
+                    ],
+                    "CanVisitRoleList": [
+                      "FGC_Anonymous"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "DefaultExpandStyle": 1,
+        "MenuLevelsStyle": [
+          {
+            "FontSize": 16.0,
+            "Height": 35.0,
+            "IconHeight": 15.0,
+            "IconWidth": 15.0
+          },
+          {
+            "FontSize": 14.666666666666666,
+            "Height": 32.0,
+            "IconHeight": 15.0,
+            "IconWidth": 15.0
+          },
+          {
+            "FontSize": 13.333333333333332,
+            "Height": 32.0,
+            "IconHeight": 15.0,
+            "IconWidth": 15.0
+          }
+        ]
+      }
+    },
+    "7,10": {
+      "IsPlaceHolderCell": true
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "Formatter": 0
+      },
+      {
+        "FontSize": 21.333333333333332,
+        "FontWeight": 1,
+        "Foreground": 2,
+        "WordWrap": true
+      },
+      {
+        "FontFamily": 3
+      },
+      {
+        "Foreground": 4
+      },
+      {
+        "FontSize": 21.333333333333332,
+        "Foreground": 2
+      },
+      {
+        "FontFamily": 5,
+        "FontSize": 8.0,
+        "Foreground": 2,
+        "HorizontalAlignment": 6,
+        "VerticalAlignment": 7,
+        "Underline": true,
+        "ShrinkToFit": true
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "[AUTO]General",
+        "Bold",
+        "Background 1 0",
+        "Body",
+        "Text 2 0",
+        "HGP創英角ｺﾞｼｯｸUB",
+        "Center",
+        "Top"
+      ]
+    },
+    "CellStyles": {
+      "0,10": 0,
+      "1,4": 1,
+      "2,1": 2,
+      "2,2": 2,
+      "2,3": 2,
+      "2,54": 3,
+      "2,64": 3,
+      "3,1": 2,
+      "3,2": 2,
+      "3,3": 2,
+      "3,15": 4,
+      "3,64": 3,
+      "4,1": 2,
+      "4,2": 2,
+      "4,3": 2,
+      "4,64": 3,
+      "5,1": 5
+    },
+    "SheetStyle": {
+      "FontFamily": 3
+    }
+  },
+  "Spans": [
+    "2,54,3,10",
+    "3,15,3,33",
+    "2,1,3,3",
+    "5,1,2,3",
+    "7,10,29,54",
+    "1,4,5,11",
+    "7,0,29,10"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.MasterPage, ServerDesignerCommon",
+    "PageLoadedCommandList": [],
+    "PageResponsiveMode": 4
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  },
+  "BackgroundPictures": [
+    {
+      "FitToBrowserWidth": true,
+      "FitToBrowserHeight": true,
+      "Repeat": true,
+      "Name": "727a4398-2932-40ee-8acf-1dcc2c6119f7",
+      "DisplayName": "背景画像1",
+      "ForguncyPictureName": "PCMasterBackground",
+      "ForguncyPictureSourceType": 2,
+      "Stretch": 2,
+      "Size": "200,210"
+    },
+    {
+      "Name": "a0212117-67a3-4093-9b4e-6e0ac4ef44ad",
+      "DisplayName": "背景画像2",
+      "ForguncyPictureName": "PCMasterBanner",
+      "ForguncyPictureSourceType": 2,
+      "Stretch": 3,
+      "Size": "1280,100"
+    }
+  ]
+}//fpGRWvDClC8z4RAYEi3WSVgdy1axrtwilDy/ZWU355COBWsrzJe0nTPv67GtdJdLXlPd9hh9P1AJWwMvC2oRyZ0MnaLHuZMpxoaOMLsLXyclQvNsxurvh6X8feCGKARy3TZjkfsP3UmW3KYrTLkdMiyAWsPSIIV+pDomdHiEYq+FPEmet4160TS+vRdslaKsYEee7MOh+Qet4qDQNv+kEqlR+lDTRmQI2aE6JMcsNLh583dDALDGy7Iv26bIb9Ex1N3PFiyWhSPKDN3qkCARnZtfIqAPvxm3D8hNmNviemwJ8Yu3laymSbq8qALNHqILghPxG9lAaiqY4cU9WVO44NZZcScr0SiEqEGmgl84lulDbP9CpYHPiWvB5fxaf6QY8DKI6V5hO4RqXWTnIl82l2eexag4+T7RaPqfWUvbVGxI50INiOkIXHWgXvhofMilSuEoeJvaVoQy9VX7aWzUguqBu+X00dBgVubnnN4pUNI41lfCZI3nG0NeLFNwl7iQSKGaZw4TMbxdz8PSA64c4Fsacf/TV0TUdwPSCHEDvKcKgQDrGcDgOlGpaKyh+aS08ZHTdDwMR7fEpFUVHdasc+uR7t6x/29ccRNt4SD1Uf3IZKIA4QO7lKpjYsV+pAlLTZgwR3K/kO63ItCm3+EcG2pz5Bf3QcGmKrm0kHvpUTaxo8H03iPH8ZNQVWCKM9cVRvapdWusoogPHP/1suWZ0pAaAts4L+GEsahw9nzmuCfcTYUPorPawEuL/hxPx42cN3eDM8QcgRzup7VX94cpllv0M0Gi/TYzOdP4kZPgofhhQ3tEMr/7U4aSsQNbL07ePct/Q6vDXPPRfywEW+pRIRPYqhdCm6+J1F+xdp599Ap4x+Dk72zBnlmsjugTIJBHzvNPqEk5tiIpmCgPd9OmQA==|920

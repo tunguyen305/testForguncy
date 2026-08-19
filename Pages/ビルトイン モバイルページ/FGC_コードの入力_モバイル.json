@@ -1,0 +1,215 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "30": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 31
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "18": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 19
+  },
+  "Values": {
+    "0,0": "  ",
+    "6,3": "コードの入力",
+    "9,3": "お使いの認証アプリに表示されるコードを入力してください。",
+    "16,3": "コード",
+    "22,3": "確認"
+  },
+  "AttachInfos": {
+    "17,3": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_NewUnderline",
+        "WaterMark": "",
+        "ForguncyAttribute": "MFA_VerifyCode_Inputbox"
+      },
+      "DataValidationInfo": {
+        "NumberType": 6,
+        "CompareParamType": 2,
+        "FirstParamValue": "6",
+        "IgnoreBlank": false,
+        "ErrorMessage": "6桁のコードを入力してください。"
+      }
+    },
+    "20,3": {
+      "CellType": {
+        "$type": "Forguncy.CheckBoxCellType, ServerDesignerCommon",
+        "Caption": "このデバイスではコードの入力は不要にする",
+        "Style": 1,
+        "ForguncyAttribute": "MFA_VerifyCode_TrustDevice"
+      }
+    },
+    "22,3": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "Text": "確認",
+        "AutoExecute": true,
+        "TemplateKey": "_RS_Main1",
+        "ForguncyAttribute": "MFA_VerifyCode_SubmitButton"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0,
+        "FontSize": 24.0,
+        "FontWeight": 1,
+        "Foreground": 2,
+        "HorizontalAlignment": 3,
+        "VerticalAlignment": 4
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 13.333333333333332,
+        "Foreground": 5,
+        "VerticalAlignment": 6,
+        "WordWrap": true
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 14.666666666666666,
+        "Foreground": 5,
+        "Formatter": 7
+      },
+      {
+        "FontFamily": 0,
+        "Foreground": 8,
+        "Formatter": 9
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 13.333333333333332,
+        "Foreground": 5,
+        "WordWrap": true
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 16.0,
+        "Formatter": 7
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body",
+        "Bold",
+        "Text 1 25",
+        "Left",
+        "Bottom",
+        "Text 1 50",
+        "Top",
+        "[AUTO]General",
+        "Text 1 15",
+        "@"
+      ]
+    },
+    "CellStyles": {
+      "6,3": 0,
+      "9,3": 1,
+      "16,3": 2,
+      "17,3": 3,
+      "20,3": 4,
+      "22,3": 5
+    },
+    "SheetStyle": {
+      "FontFamily": 0
+    }
+  },
+  "Spans": [
+    "6,3,2,13",
+    "9,3,3,13",
+    "22,3,2,13",
+    "17,3,2,13",
+    "20,3,1,13"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "Title": "コードの入力",
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "IsBuiltInPage": true,
+    "IsMobilePage": true
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  },
+  "BackgroundPictures": [
+    {
+      "Name": "0285f038-53e6-4cbd-a7f0-bd34cb6eb9ad.jpg",
+      "DisplayName": "背景画像1",
+      "ForguncyPictureName": "PCLoginBackground",
+      "ForguncyPictureSourceType": 2,
+      "StyleInfo": {
+        "Fill": null
+      },
+      "IsAutomaticFill": false,
+      "Size": "380,620"
+    },
+    {
+      "Name": "446553e5-ddca-4ba5-bc1c-58b8cf3d8b8a.png",
+      "DisplayName": "背景画像2",
+      "StyleInfo": {
+        "CornerRadius": 20.0,
+        "Fill": "Background 1 0"
+      },
+      "IsAutomaticFill": false,
+      "Location": "20,80",
+      "Size": "340,440"
+    }
+  ]
+}//YjsLk7MWE3jL2rQXgumKMG+wp4kk79YYMRo+gIwq/NwhJ2eYneEurI+HxrK6gZyv4eorXDpEgjIl34g1JwE7tvhsrUfICZ7epYP69xNOvDp4KWh2xGiuZjPrKYusikCz+DSnEYv6JIwe1m8z5NhdY1+8hwOmZkVmQWRkomHV1nsUaahrE3IHLHLN4uOuKW6MruJ9Zh9ESIwsc+DflUw4RU4YxJHkbQaP0Jelm57LZVR0AwrKglejg884e0Y0sOx124j17SdLJDyDJfc+Fipif5Cg5dGDh3+lLHVz/OnQHi8BLqfda/l2JbKs/tYr8v9jCJp495Q5kCUG+nfgWxhaC+KpKsyApBhEtOyWz6gcV14U68SU2YlTQnbfDqf2fiA7zPnDXnVxbtQMuli42W7W1TR6b9cFuHLzHnYFmV8dlyfdNootXAmDxbbPjtGAbMGQXxiObwlFLPrlk7SgH9qJ4nzgMP82wPvIfZVhHRosDx0RY2B31lxQgiGOTsPrJc9P5tpUE4PpF/Fg0cBT6sg+RG5kXK4p+fdqRDoj1T9M0328qPgCmyPSjJX+tq9cf+bkI4gB9//qs0SWmSb+2YRYSRUro2/G8POXuTHqGhmYUjHj4v39Lt3KjebVvup6L310fNBP3nb69NInwtlddfPNWY+R0YaH5aXSWmoWnk849MMG67p3i77+UC8EQeliqj11TW+j2zKviBxLYcT9L1E9n/ohflJlCg8xo9nKFvUXjc+2s56f8hH/EWd9UeGc3mbPfyO0r7Tgy7qkS1iEMIY2KmNoUSBtQenPUdZu06J6mb5LLYPYXH/TE3/QJQ7oaoPP4I9fmVSO2B14ph4JAFFY33rgluGk4eU79u66Q18S3f2GgY3cf+LuLzsr+S6Hj1OM9G3ts5CUpF7SO72rH05VKw==|920

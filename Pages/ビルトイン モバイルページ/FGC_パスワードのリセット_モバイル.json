@@ -1,0 +1,261 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "30": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 31
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "19": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 20
+  },
+  "Values": {
+    "5,3": "パスワードのリセット",
+    "9,3": "*",
+    "9,4": "新しいパスワード",
+    "13,3": "*",
+    "13,4": "新しいパスワードの確認",
+    "18,3": "リセット",
+    "21,3": "キャンセル",
+    "25,3": "簡単に推測できるパスワードは避けてください"
+  },
+  "AttachInfos": {
+    "10,3": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "ShowPassword": true,
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_NewUnderline",
+        "ForguncyAttribute": "ResetPassword_NewPassword"
+      },
+      "DataValidationInfo": {
+        "IgnoreBlank": false
+      }
+    },
+    "14,3": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "ShowPassword": true,
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_NewUnderline",
+        "ForguncyAttribute": "ResetPassword_ConfirmPassword"
+      },
+      "DataValidationInfo": {
+        "IgnoreBlank": false
+      }
+    },
+    "18,3": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "Text": "リセット",
+        "AutoExecute": true,
+        "TemplateKey": "_RS_Main1",
+        "ForguncyAttribute": "ResetPassword_Button"
+      }
+    },
+    "21,3": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+            "NavigateType": "back"
+          }
+        ],
+        "Text": "キャンセル",
+        "ClickMode": 1,
+        "TemplateKey": "_RS_Main"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0,
+        "FontSize": 24.0,
+        "FontWeight": 1,
+        "Foreground": 2,
+        "Formatter": 3,
+        "HorizontalAlignment": 4,
+        "VerticalAlignment": 5
+      },
+      {
+        "FontFamily": 0,
+        "Foreground": 6,
+        "HorizontalAlignment": 4,
+        "Underline": false,
+        "Strikethrough": false
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 14.666666984558105,
+        "Foreground": 7,
+        "Formatter": 3
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 14.666666666666666,
+        "Foreground": 8,
+        "Formatter": 9
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 16.0,
+        "Foreground": null,
+        "Formatter": 3
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 16.0,
+        "Foreground": null,
+        "Formatter": 3,
+        "HorizontalAlignment": 10,
+        "Underline": false
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 13.333333333333332,
+        "Foreground": 11,
+        "Formatter": 3,
+        "HorizontalAlignment": 10
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body",
+        "Bold",
+        "Text 1 25",
+        "[AUTO]General",
+        "Left",
+        "Bottom",
+        "#FFFF0000",
+        "#FF7F7F7F",
+        "Text 1 15",
+        "@",
+        "Center",
+        "Background 1 -35",
+        "#FF000000"
+      ]
+    },
+    "CellStyles": {
+      "5,3": 0,
+      "9,3": 1,
+      "9,4": 2,
+      "10,3": 3,
+      "13,3": 1,
+      "13,4": 2,
+      "14,3": 3,
+      "18,3": 4,
+      "21,3": 5,
+      "25,3": 6
+    },
+    "SheetStyle": {
+      "FontFamily": 0,
+      "FontSize": 13.333333015441895,
+      "Foreground": 12
+    }
+  },
+  "Spans": [
+    "5,3,2,14",
+    "10,3,2,14",
+    "14,3,2,14",
+    "18,3,2,14",
+    "21,3,1,14",
+    "25,3,1,14"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "Title": "パスワードのリセット",
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "IsBuiltInPage": true,
+    "IsMobilePage": true
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  },
+  "BackgroundPictures": [
+    {
+      "Name": "403a73b9-04b9-4974-828b-bd0f78a1f8a0.png",
+      "DisplayName": "背景画像1",
+      "StyleInfo": {
+        "CornerRadius": 20.0,
+        "Fill": "#FFF6F6F8",
+        "StrokeDashType": 8,
+        "Stroke": "black",
+        "StrokeThickness": 0.0
+      },
+      "IsAutomaticStroke": false,
+      "IsAutomaticFill": false,
+      "Location": "20,60",
+      "Size": "340,420"
+    }
+  ]
+}//GzaEm4XQoMp3kxuQrMgcg5FKh75KG+3jJeJ/WWMJVzrDU6swBAYlij+5daFUrcsV37xIdBXe7WdiMJG6VCf9YOFzohuZvw1QZtakLN7yeNwzn13BFfs1EM+amxSD6oMk3GcV7LpG6XaedrzCURdBVtDiUOq1wcVdy0iPBAlMJMitbnJC1fdQUhC9izGBEGmmzuBrMt0JMkPW3AvUh9tnrG+7S9tRD1GfoGu+DMRe8XqLMkgt0BPBygXceTf12WFmncST1M9UjKUqhxoevC/eVBbSE0EZZuZlUpX1IzqlH7fQLcTea8h7fc20liAdBtGPRBpZvlDPcIypo6w4l1SF49vZhCJZivzaQkH7uFHSgKY60ISmymxxlUlyoLFBLSs/kDFGBC6OHOFGU2NuybDkS/dWOZo0sSRVUPgboKOrRla4HHmAZh9JaV7PmGL2vPWlzJwSh1L0MYxhJedGjeDrpviKX27dtiNz92+tiANUc1jID8dwyHg6jMj3j6VLxSlyWzGfV15ZE4kYO0n9cNvae81erI+BG8bIRT/YdbjoEAeE+uK7Tzp/no47KOezesvc2NtKuD9gopNw4zVnT+cYgda565fejLbobPM9kcS6E3YENe0Arho4h401V+PDuiCzrkVHBXNV25RCPXkCsn9SUqYvA0aTJgVBBUHoNHIyi0mBAPnNHI2oZPdIOcfMLh0LzK6tPsRAKXzgYMPNh7cvYTNcRWKwrxTOs51MSUkWJvGrKmLc5ARzyiFhYJXY6nG7rs+jY4U9rL1SuPDufcqMgdO4hsVWCIsoPYisQPWlmG5cl4dlIIW5fA1R2ZM5Q3vxu6FkR7Ud6YNdup8TJwhkE20HfPY9ypZ9hn0pPiDcAi/ojcYKWQ25/ZDylibZIVKXtgAUV95nIr+dtzY6pK1J2A==|920
