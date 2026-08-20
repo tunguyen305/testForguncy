@@ -189,7 +189,16 @@
   },
   {
     "ModuleName": "Plugin",
-    "ModuleType": 40
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\PhillipNguyen",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-08-20T16:11:58.5711834+07:00",
+    "ModuleType": 40,
+    "ToRemoveFiles": [
+      "Plugin\\PostgreSqlWrapper.zip"
+    ]
   },
   {
     "ModuleName": "PublishSetting",
