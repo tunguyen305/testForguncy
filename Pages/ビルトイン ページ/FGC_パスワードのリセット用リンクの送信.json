@@ -394,24 +394,23 @@
     "Count": 54
   },
   "Values": {
-    "5,20": "Configure MFA",
-    "8,20": "Add an account on an authenticator app on your mobile phone and scan the QR code below.",
-    "22,20": "Next"
+    "6,20": "パスワードを忘れた場合",
+    "10,20": "パスワードリセットのためのリンクがメールで送信されました。メール受信後、そのリンクをクリックし、開いたページて新しいパスワードを入力してください。メールが届かない場合は、管理者に問い合わせてください。",
+    "18,20": "ログイン"
   },
   "AttachInfos": {
-    "11,22": {
-      "CellType": {
-        "$type": "Forguncy.BarcodeCellType, ServerDesignerCommon",
-        "CodeType": "QRCode",
-        "ForguncyAttribute": "MFA_Secret_Barcode"
-      }
-    },
-    "22,20": {
+    "18,20": {
       "CellType": {
         "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
-        "Text": "Next",
-        "TemplateKey": "_RS_Main1",
-        "ForguncyAttribute": "MFA_Secret_Next_Button"
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+            "PageName": "FGC_ログイン"
+          }
+        ],
+        "Text": "ログイン",
+        "AutoExecute": true,
+        "TemplateKey": "_RS_Main1"
       }
     }
   },
@@ -422,15 +421,17 @@
         "FontSize": 24.0,
         "FontWeight": 1,
         "Foreground": 2,
-        "HorizontalAlignment": 3
+        "Underline": false,
+        "Strikethrough": false
       },
       {
         "FontFamily": 0,
         "FontSize": 13.333333333333332,
-        "Foreground": 4,
-        "HorizontalAlignment": 3,
-        "VerticalAlignment": 5,
-        "WordWrap": true
+        "Foreground": 3,
+        "VerticalAlignment": 4,
+        "WordWrap": true,
+        "Underline": false,
+        "Strikethrough": false
       }
     ],
     "Types": {
@@ -438,29 +439,29 @@
         "Body",
         "Bold",
         "Text 1 25",
-        "Left",
         "Text 1 50",
         "Top"
       ]
     },
     "CellStyles": {
-      "5,20": 0,
-      "8,20": 1
+      "6,20": 0,
+      "10,20": 1
     },
     "SheetStyle": {
-      "FontFamily": 0
+      "FontFamily": 0,
+      "Underline": false,
+      "Strikethrough": false
     }
   },
   "Spans": [
-    "5,20,2,13",
-    "8,20,2,14",
-    "22,20,2,14",
-    "11,22,10,10"
+    "10,20,6,14",
+    "18,20,2,14",
+    "6,20,2,14"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
-    "MobilePageName": "Scan MFA QR Code (Mobile)",
-    "Title": "Configure MFA",
+    "MobilePageName": "FGC_パスワードのリセット用リンクの送信_モバイル",
+    "Title": "パスワードを忘れた場合",
     "RowBreakLines": [],
     "RepeatRangeSettings": [],
     "IsBuiltInPage": true
@@ -471,28 +472,19 @@
   },
   "BackgroundPictures": [
     {
-      "Name": "d754c1db-d649-40b3-8402-f58fcf892e1c.jpg",
-      "ForguncyPictureName": "PCLoginBackground",
-      "ForguncyPictureSourceType": 2,
-      "Stretch": 3,
-      "StyleInfo": {
-        "Fill": "Background 1 0"
-      },
-      "IsAutomaticFill": false,
-      "Size": "1080,620"
-    },
-    {
-      "Name": "BackgroundPicture2",
+      "Name": "BackgroundPicture3",
+      "DisplayName": "背景画像1",
       "StyleInfo": {
         "CornerRadius": 20.0,
-        "Fill": "Background 1 0",
-        "Stroke": "black",
+        "Fill": "#FFF6F6F8",
+        "StrokeDashType": 8,
+        "Stroke": "Background 1 -25",
         "StrokeThickness": 0.0
       },
       "IsAutomaticStroke": false,
       "IsAutomaticFill": false,
-      "Location": "340,60",
-      "Size": "400,460"
+      "Location": "340,80",
+      "Size": "400,360"
     }
   ]
-}//EcXtrZ4/eo4V0Xb2D1p8Qzv8gZGuaxXGHJbt4s4BM4L0oPZ7YmQSK56Cht26QBqY8ozi0SMugq8ggpyqKjI1wxBaoufRoThAJb/5RsgvOW4ok9SPU82pFGHSNVpKWq/p0OBcPZttkPfvJQ/B5VUdD7+42f7pWIoclYEJLBB+CysnhEN/UWC3atF1puJURM4hO5FFIakW0LZI7w0gglTtqTEs1fv6MuYOaALW1OzP+sth71FmgtP7pt+Nv0fmMU8kfAPXWTMgeqO3S0NTOi8HKHIdIG8FQ/fi7/3AS6AxPiNKTtnFIqLaTqx+WMEIcMUUtRLnKnHF4J6IWp4nk92fVnSO1DFLIzoHYTjhO/PMBZgGDAWjQWUN3XY9FacQ55gKKi6ZpolHjzGybCHloaQWloRd6dEust6KYHeA8VyjtY6WvOjOxrftYIRYpVtDJ7Fm2+jdHx62tEGApZDucHlJDEl0dc5nkO3/OtEMQorFyd/XNHTJUS53xbedp1CYv2tIEOlGp4wi4cVTUeAsq5AXNAMQ5td/GyV0Hr4Nl3RiujuMwjhuPypcv7TmY1jgknNSx0XZnQwR6BL5KiOXotzzphlSuqXTo0ZwpfAC42R4D6xM8Nc1GIl3uVhYDJbOGzRIg4Wb57R7syvdmJtVQy/e6akuVau9AkPAjt5/XLn0LqtJotqg21jHT/d824OZoJQm3wF9ErtmyzlcK9tE/8wBjGpsYIAeSKefdKttX9oIlQAzD3/nLNDZg6Y9p4ixLBFfsDIT/wNPga67BkvcJcSmGSbfE/5pPiTsaVY83iUn788/MmomI4cMG64tUbhlppyjkw9Oap8t+XmleFBV1HL1qsYWDZ173r4o3YVYKNBe2P1RlMIPpJ66ckSJVPcISzEDtRs3VlHauAEDwO38z87GyQ==|920
+}//GLjItFDZrAp5flJxfAB+TBcG5u5Ae+3ai799T+ZdLxgGVbkGTJmf6c7DsP79cevsUJt5MnJQBQPLWK7hSAEEEgtsmMSxR0nGJCEMU8OIrvtVQMYJWhM98kxo+IPGcAIXInWeuozSWsAzJJBe7d/nFliNfOV/XemaFduJYlIZ6Eht6Umez36L715sechFY1xq0CXp6daAOZ/Z3YyJdv32OeNvqa0rTaO1DBAKCzsxFKuQi1NSOXx9xIb6R+RBB+6JPp7wFctYmTqBjP79uxjhfMEVAyvxHuNHBHRJRkAztg0UItwvUM+6fCDFU2YNtvVnjvUybOFszAFdmmRyPlmJz52O6FfnRhWo4H8KOR9H+7AIuQ+eLaaboUdKu8yqnJajZCb0FtKDcvkGhFRNT0Dl85bWpZXibyzxwVRVpHaVdwAo6y+FEEkS/MRD8OtOM2UzmgYNcJxAN/YaPNl1QU5f1gd+YhQPZbhhi/75xd9EzDCevkNrpCw/8ByXKRzdKVs2RjUjAm4LB8S+1WwaFAFhqDvD2DAv+IPHs0VZoNNKDO0gw5+WzU0IvEi40c58YC3sjKZf+RKYbBnJcR23ddTxdSmvfYowe7AfsIOiukf2KGvN+7Te+cj0iMhqlVNySUsiSZ35k1xLpn13u4k1wpQzjXqVFT/SYxOHcMM5hfvWuRhXoVgzBxLHWg67xFKU12bFT75agpcUKoojsOLhBVH/tgHUBSf511Gx4VH4d8/Y1cjgCHDgMupEoYmA0gcTDcz7UUgh6tfCdaBaHAwHPryqlpvQ4wGWyzc/UOTNNXDSZ0sLNzSxACqZbFYXAhvTWBmkymqDk+RtCH+3kY4zmHJQmzjdosGv1MQTHK2i9qoL7bXD9KDkD2skhW+EzYi5AqmtQjH/t6Ad5eAStW+++ihVVQ==|920

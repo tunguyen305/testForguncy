@@ -18,7 +18,12 @@
           "DesignLengthInPixel": 30.0
         }
       },
-      "29": {
+      "17": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "28": {
         "GridRowColumnDefinition": {
           "DesignLengthInPixel": 20.0,
           "Mode": 2,
@@ -31,7 +36,7 @@
         }
       }
     },
-    "Count": 31
+    "Count": 30
   },
   "Cols": {
     "RowColumnAttachedInfos": {
@@ -215,16 +220,14 @@
           }
         }
       },
-      "38": {
+      "20": {
         "GridRowColumnDefinition": {
-          "DesignLengthInPixel": 20.0,
-          "Mode": 2,
-          "MinLength": {
-            "Unit": 1
-          },
-          "MaxLength": {
-            "Value": 1.0
-          }
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "21": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
         }
       },
       "39": {
@@ -394,18 +397,47 @@
             "Value": 1.0
           }
         }
+      },
+      "53": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
       }
     },
-    "Count": 54
+    "Count": 55
   },
   "Values": {
-    "5,20": "Forgot Password",
-    "8,20": "Enter your username or email address and click Send. An email will be sent with a link to reset the password.",
-    "13,20": "Username or email address:",
-    "18,20": "Send",
-    "21,20": "Cancel"
+    "4,20": "ユーザー情報の編集",
+    "13,20": "*",
+    "13,21": "氏名",
+    "17,20": "*",
+    "17,21": "メールアドレス",
+    "22,20": "保存",
+    "25,20": "キャンセル"
   },
   "AttachInfos": {
+    "7,25": {
+      "CellType": {
+        "$type": "Forguncy.UploadImageCellType, ServerDesignerCommon",
+        "UploadImageLimit": {
+          "IsCompressImage": true,
+          "MaxWidth": 300.0,
+          "MaxHeight": 300.0,
+          "AllowExtensions": ".art, .bmp, .cmx, .cod, .dib, .gif, .ico, .ief, .jfif, .jpe, .jpeg, .jpg, .pbm, .pgm, .png, .pnm, .pnz, .ppm, .ras, .rf, .rgb, .svg, .tif, .tiff, .wbmp, .xbm, .xpm, .xwd"
+        },
+        "ImagePath": "Navigation/238_user_8.svg",
+        "BuiltIn": true,
+        "Color": "Accent 1 40",
+        "ForguncyAttribute": "ChangeProfile_Picture"
+      }
+    },
     "14,20": {
       "CellType": {
         "$type": "Forguncy.TextCellType, ServerDesignerCommon",
@@ -415,7 +447,7 @@
           }
         ],
         "TemplateKey": "_RS_NewLittleRoundCorner",
-        "ForguncyAttribute": "ForgotPassword_UserOrEmail"
+        "ForguncyAttribute": "ChangeProfile_FullName"
       },
       "DataValidationInfo": {
         "IgnoreBlank": false
@@ -423,14 +455,29 @@
     },
     "18,20": {
       "CellType": {
-        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
-        "Text": "Send",
-        "AutoExecute": true,
-        "TemplateKey": "_RS_Main1",
-        "ForguncyAttribute": "ForgotPassword_Send"
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_NewLittleRoundCorner",
+        "ForguncyAttribute": "ChangeProfile_Email"
+      },
+      "DataValidationInfo": {
+        "IgnoreBlank": false
       }
     },
-    "21,20": {
+    "22,20": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "Text": "保存",
+        "AutoExecute": true,
+        "TemplateKey": "_RS_Main1",
+        "ForguncyAttribute": "ChangeProfile_Button"
+      }
+    },
+    "25,20": {
       "CellType": {
         "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
         "CommandList": [
@@ -439,8 +486,7 @@
             "NavigateType": "back"
           }
         ],
-        "Text": "Cancel",
-        "ClickMode": 1,
+        "Text": "キャンセル",
         "TemplateKey": "_RS_Main"
       }
     }
@@ -457,10 +503,8 @@
       },
       {
         "FontFamily": 0,
-        "FontSize": 13.333333333333332,
         "Foreground": 3,
-        "VerticalAlignment": 4,
-        "WordWrap": true,
+        "HorizontalAlignment": 4,
         "Underline": false,
         "Strikethrough": false
       },
@@ -468,26 +512,32 @@
         "FontFamily": 0,
         "FontSize": 14.666666666666666,
         "Foreground": 2,
-        "HorizontalAlignment": 5,
+        "HorizontalAlignment": 4,
         "Underline": false,
         "Strikethrough": false
       },
       {
         "FontFamily": 0,
-        "Formatter": 6,
+        "Formatter": 5,
+        "TextIndent": 0,
         "Underline": false,
         "Strikethrough": false
       },
       {
         "FontFamily": 0,
-        "FontSize": 14.666666666666666,
+        "Foreground": 3,
         "Underline": false,
         "Strikethrough": false
       },
       {
         "FontFamily": 0,
-        "FontSize": 14.666666666666666,
-        "HorizontalAlignment": 7,
+        "Formatter": 5,
+        "Underline": false,
+        "Strikethrough": false
+      },
+      {
+        "FontFamily": 0,
+        "HorizontalAlignment": 6,
         "Underline": false,
         "Strikethrough": false
       }
@@ -497,20 +547,21 @@
         "Body",
         "Bold",
         "Text 1 25",
-        "Text 1 50",
-        "Top",
+        "#FFFF0000",
         "Left",
         "@",
         "Center"
       ]
     },
     "CellStyles": {
-      "5,20": 0,
-      "8,20": 1,
-      "13,20": 2,
+      "4,20": 0,
+      "13,20": 1,
+      "13,21": 2,
       "14,20": 3,
-      "18,20": 4,
-      "21,20": 5
+      "17,20": 4,
+      "17,21": 2,
+      "18,20": 5,
+      "25,20": 6
     },
     "SheetStyle": {
       "FontFamily": 0,
@@ -519,16 +570,17 @@
     }
   },
   "Spans": [
-    "8,20,5,14",
-    "14,20,2,14",
-    "18,20,2,14",
-    "21,20,1,14",
-    "5,20,2,15"
+    "14,20,2,15",
+    "18,20,2,15",
+    "22,20,2,15",
+    "25,20,1,15",
+    "7,25,5,6",
+    "4,20,2,15"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
-    "MobilePageName": "Forgot Password (Mobile)",
-    "Title": "Forgot Password",
+    "MobilePageName": "FGC_プロファイルの編集_モバイル",
+    "Title": "ユーザー情報の編集",
     "RowBreakLines": [],
     "RepeatRangeSettings": [],
     "IsBuiltInPage": true
@@ -539,7 +591,8 @@
   },
   "BackgroundPictures": [
     {
-      "Name": "BackgroundPicture2",
+      "Name": "BackgroundPicture3",
+      "DisplayName": "背景画像1",
       "StyleInfo": {
         "CornerRadius": 20.0,
         "Fill": "#FFF6F6F8",
@@ -549,8 +602,9 @@
       },
       "IsAutomaticStroke": false,
       "IsAutomaticFill": false,
-      "Location": "340,60",
-      "Size": "400,430"
+      "Location": "340,40",
+      "Size": "400,540",
+      "BoxShadowString": "0 0 0 5 #18000000"
     }
   ]
-}//zWe5q145/lh49Em9JmOVcJkKijsHF12MXNDU+eK+lFCSa5Cvti+zndSy/BBG34Zo51F9l98baM5/qT9Vg/AN+WOY4wMKNVPspiHDhPnCzK2lU+8I5pHt2iy3MnOHVqChzez3WFUsjjTByYHe653Oxf0yc8ojlTqCLa9UTD3CvCX1AMA265VDDBNpcLSL3dJ7KpeHHKrc2AsTKIt3w8XMURCXkC7dB808XqesWBfChGDp6NuxvC+Epdr3vBk+eyCWMS6CHA6gDOvBsdw+3GWL+QSSq0M0QIiEc04FSWkHhq93rIRjqZxEOoF0Xhc3ggZDKTcLQNdZXJM4s6LVXpLCR5sGh8rV1IwFksHjF/jUI/fVfGj+b6L7BjVr7n/gMSNX8vyZu73cGdj3wUGvi7/tY0ltsiXvQHlxuK6mJB/jeUYkktmaF8xUBWcdQ6Idx72o0vHRPQhfOZEbF1ZHLLEDbdlRh9NcVr4RjzwjjMg9lTCQCJkXY1MpaG1WdjUClt1qpEjYUJdwENs4GEr3/P7UsKTCtsd1oqqCKbN+J9X5RakNpXmPNsCQhoqKAgilVP+/UXmzDjCQ6jM8TH0tYNPUi+Qf3nBYMneziHMWKDg5PUM+qsUOIuAFwu8is5VBp7p8HOTR72kGc6gZBKzPU9iztOPVAqOoAtbEb2nIUAs1Jkz+lSTrc8R5AqEtIM43DObsL7KIyzo8ecZoGhI30VbWNakS3Rg7nqdGU6QD9FMrcvYrDKycDl2lisD9ksbfKVvg8ogWPWD5i477IO8YaUpMXPh1jvYDKC9CfzMDqo4oJw5Lb1XCRe19zHLq1USzAUNs/Hgw3Lvv05tRefCO/SDXnLLvYXaJhV7WPPl+Psl3S5BHpk5YyLw2OpGDO3ZGtL65ZnQsfNwgbMaKSFs14zh7vA==|920
+}//eO5V8arwLf4vjykabODzJhgUUfkvYEiph7KPBChqhHhV0OIkUOTjYr03USDFbGTw5Ru8GgM+v8dQ3elXVvPFmTAz8TWV6GfSfJX57w7y+UAuSF4iSqIWIFzAPxQnsFaV+PdA0s550j6NzaBYE/zTkGom6Xmw310rqhr/xOYvzcUCLRwn2x/qdJQlizQEIt3zOoJBKSFbR7t6GeG1jxXOd4PrqHnZWzO6Ib77tCvzkcTmQC/UnEZCRINjrp85cHxx5QyYIFweHA0ddzl2thdAGiphSe7fv3sduvqktsxFPmU7fcJA6w+/t+CugALnui+/5PIvvIM57sIl/V/6mKsRPDMNga738CmtoS+1VMYmIBI/4cXr5IHDDjFnfqmDBkyzn/SHcG2Q8SkiBX7Nt2DwWe2bZ0Z12SnQW4Cc4uWqw8lJs9EhDfcrDNH3na6mrh81uWn7rjjRFAArdw/E+rSgRs9QsAxbolEYOgTzKW0rUGcQMESjEnGZCBsHzyHHzzZMe9fAhX8jxtKIUOO8PwR5pKZF8oOBUttmgKE2BZgqloGppaKB1/XYEnCNguKlnko7dhugBRPq3am3oGTKBfUljUCg2LkoLnqmvhdENHpCtCCzXKZXrRTFgbqsqcAXI+SKrdbfUy7SpjDxmKGibAEdl4zAO0d4UWjwW+T0zJYCVmvddpl94EdPSFVCG7ziGNoIEfSyPQBbqOFmaj0AM+B2AoxjDFFsq5WiucJzrQfXiSc5WnoXhV8DxjKxIXpIcb8QMjbuG4Ya2lTfsqLlwQ3rR9FWEbeZbzrLt0H5393URd0PebiPwO/i8dDtUKlhAJDHDHpqz+lQ45hj6klTE3dszbWxSn5ZTw3qPNRlbHQaWif6mb0iv3ikYxUCmIrJrus5ZohcqIVG4pMQuQuedwlk/g==|920

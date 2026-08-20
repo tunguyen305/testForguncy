@@ -1,7 +1,7 @@
 {
   "Rows": {
     "RowColumnAttachedInfos": {
-      "1": {
+      "0": {
         "GridRowColumnDefinition": {
           "DesignLengthInPixel": 20.0,
           "Mode": 2,
@@ -26,11 +26,11 @@
         }
       }
     },
-    "Count": 32
+    "Count": 31
   },
   "Cols": {
     "RowColumnAttachedInfos": {
-      "1": {
+      "0": {
         "GridRowColumnDefinition": {
           "DesignLengthInPixel": 20.0,
           "Mode": 2,
@@ -42,7 +42,7 @@
           }
         }
       },
-      "52": {
+      "18": {
         "GridRowColumnDefinition": {
           "DesignLengthInPixel": 20.0,
           "Mode": 2,
@@ -55,25 +55,25 @@
         }
       }
     },
-    "Count": 54
+    "Count": 19
   },
   "Values": {
-    "15,16": "Page Disconnected",
-    "18,16": "The connection to application has been terminated due to a long idle time on the page. If you need to continue using it, please reload the page.",
-    "22,21": "Reload Page"
+    "15,2": "接続タイムアウト",
+    "18,2": "一定時間操作が行われなかったため、アプリケーションは切断されました。\nボタンをクリックしてこのページを再読み込みします。",
+    "22,5": "ページの再読み込み"
   },
   "AttachInfos": {
-    "4,16": {
+    "4,1": {
       "CellType": {
         "$type": "Forguncy.ImageCellType, ServerDesignerCommon",
         "ImageSizeMode": 0,
         "ImagePath": "fgc_built_in_page_disconnected.png"
       }
     },
-    "22,21": {
+    "22,5": {
       "CellType": {
         "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
-        "Text": "Reload Page",
+        "Text": "ページの再読み込み",
         "TemplateKey": "_RS_Main1",
         "ForguncyAttribute": "ReloadPage_Button"
       }
@@ -88,21 +88,28 @@
       },
       {
         "FontFamily": 0,
-        "FontSize": 34.666666666666664,
-        "Foreground": 1,
-        "HorizontalAlignment": 2,
-        "VerticalAlignment": 3,
+        "FontSize": 24.0,
+        "FontWeight": 1,
+        "Foreground": 2,
+        "HorizontalAlignment": 3,
+        "VerticalAlignment": 4,
         "Underline": false,
         "Strikethrough": false
       },
       {
         "FontFamily": 0,
         "FontSize": 13.333333333333332,
-        "Foreground": 4,
-        "Formatter": 5,
-        "HorizontalAlignment": 2,
-        "VerticalAlignment": 3,
+        "Foreground": 5,
+        "Formatter": 6,
+        "HorizontalAlignment": 3,
+        "VerticalAlignment": 4,
         "WordWrap": true,
+        "Underline": false,
+        "Strikethrough": false
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 16.0,
         "Underline": false,
         "Strikethrough": false
       }
@@ -110,6 +117,7 @@
     "Types": {
       "Strs": [
         "Body",
+        "Bold",
         "Text 1 25",
         "Center",
         "Top",
@@ -118,31 +126,31 @@
       ]
     },
     "CellStyles": {
-      "4,16": 0,
-      "15,16": 1,
-      "18,16": 2,
-      "22,21": 0
+      "4,1": 0,
+      "15,2": 1,
+      "18,2": 2,
+      "22,5": 3
     },
     "SheetStyle": {
       "FontFamily": 0
     }
   },
   "Spans": [
-    "4,16,10,22",
-    "15,16,3,22",
-    "18,16,3,22",
-    "22,21,2,12"
+    "4,1,10,17",
+    "15,2,3,15",
+    "18,2,3,15",
+    "22,5,2,9"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
-    "MobilePageName": "Disconnected (Mobile)",
-    "Title": "Disconnected",
+    "Title": "FGC_接続タイムアウト",
     "RowBreakLines": [],
     "RepeatRangeSettings": [],
-    "IsBuiltInPage": true
+    "IsBuiltInPage": true,
+    "IsMobilePage": true
   },
   "PrintInfo": {
     "PaperSize": {},
     "Margin": {}
   }
-}//f4nDmYG6Cyjj9SHmWpT0HebpfqnnuSB9dnHAC3vYWS9UYKEo/lh6DRp9tvrPk/3Kc+3r39vThnIT196ScTcfDSRln0omQFOVJQydlXyq/uBOQ8d1MCzDivUcx6qQVlcUnVa94jcJyTKAoAoRqNzzJBhV0DUMNWwK6go18slnYn6Wip9yNvYcD3zg3yrXGlx3HGX8yxJt/hV6dbi7RkFw2reH9JsjIg0PDpPLXRuaOIoDUytkhazYU15bmarYDzt8WbjIcyY9SUzR7h62Yd8sEZyDR19mPpLlA/UntSmzvMVB0KIPnZdYlIUt9LyWBO75/v8dqviGKK5yraZSF8Kp7Y9zjMR6BMxjiaNjUjoj5t8XrLy2Zo8KDoLe7LbsEJd7Pv5qzNI2RUIL5vxZpNYR6MsbXh8s0qeC/G1ILwAfIIXFUjVRCpb0WTYD/yU52VNFD920CEbpom5J2JM+FUYAIpPs9Vt+34ByyUdZwj9qM8zXAI5E/wDPbaKJ0gdAVbtgy1eKrOipKF+e4aLN1Pe0z05un45ffLmA4aIavZyr7m9+qfRNlCVefOXjHNhkOxmhRgFqr+ZK9YdXnIYtJ6E7cNmMB4SvFGhi2BGQ6EF9QLata5gKHy/Fhv8Af5uz7O7asIkUs0SgkJlxgIzKnrphZ1Yfx63Ly6JH2nTisi56M5gwJq76AtHQk8AoDO9ZGTjbV4P8L2RaIBVdsJkwIIahuqR+4rxD/DsQr+IFJ4XeE59jWkX9zqxFRJL6+ducRiWYjJcttHgdDo08HaIfrLXI13wbVLBW/9CyK60UKIYpF1wn9+ZtUW+tBgG/UsK+fo3/MtOkLZ1LxdyFRMi1dWpFrxVjv/QdFy2isFWln7PC0x0uK3I37+59XHOiwcAE78+S7G4VZwYT5WBrqIglYmbQzA==|920
+}//vINyOUQTV2gmdqImBaTKzNxcIFFtUSLlwkYp2izemT29pI87gAwWrvqczIxTStIBTNFsuwllyjeBVIPmTTlOeEwHSPwK1dR6CWludyITuR7e6K6ZthojVpk5cVdmGPal11bwiIPo12zQHFm3IJwIDOZDDQLK1OmzKSpGHThy+DO3X5EHMdH99h9d0zcU9cXzpdoJzCcJ0jwyAXTwpyie6UNcYCJnOdj31hOIyD876zxdcBYLgSJbANXz09QmW1qKDc7nBoFYgFdMhUR1JLCP7I+TL0f2QuvXO0T8ee90Krh4dxppvBJWjTicy63XDFSiM6EvnEEEDooPueDz5MhL055a6iLb5IMoafYUHuZqJF5+Tf3pWqXyr9VXXYq3dkdcxHLGiRQbm2Od/vWgt3i5QjgfEFAuFoEW/ucjCHOWiXPrCVFrZktGViKlx9ZVrHYKYc5vem6eLYPwkz43wVSGESMksOs5ERmioxn37aN+DGOy89lc32XNLcbonRfizGFCF/A/nrVclwUewvPqbfZ2GtaPT82yBtmUbZ67Y3iDjF7BF8QHdxRB1+7nhyAdHji/km6z555U2acUA7E6u17OO1sFbuYJi6/F9xfNM2Y7lhMcQXKEgL3f8OFsrSF55c7yc5CuzHaLQ+NhWquYhE3EShnNJkJv/y5zzm1i5PAPiyoNzawtaIAO+Agd9JgLKuEpLXMP/Lz7TFHdycXFbRg31Sk2LhpbeHEMkZDvLdv9A/MKVtH6tMvfD4dv6W5Ac8COchhRgFwSCE/f1hv96gtw5pl92FaUyT/Zjgmio8isaXyWvEtk/MboVH94pF1rmNx2IBkzYxTQQEipIcF51y3hXyMHgFuUfBbeqkh6Prp7uo5rfvRLxSOdDbDyAESWN6aKI3/lpEL/DPHjH8Z4G3b8UA==|920
