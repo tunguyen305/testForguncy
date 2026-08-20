@@ -1,1 +1,638 @@
-{}
+{
+  "Forguncy.TextCellTypeStyleTemplateSupportAttribute": [
+    {
+      "Key": "スタイル1",
+      "Category": "_RS_Custom",
+      "Styles": {
+        "MAIN": {
+          "NormalStyle": {
+            "FontColor": "black",
+            "BorderString": "1px solid black",
+            "BorderRadiusString": "8px 8px 8px 8px",
+            "Italic": true
+          }
+        },
+        "FGC_BUILDIN_ERROR": {
+          "NormalStyle": {
+            "BorderRadiusString": "0px 0px 0px 0px"
+          }
+        }
+      }
+    }
+  ],
+  "Forguncy.ButtonCellTypeStyleTemplateSupportAttribute": [
+    {
+      "Key": "年月ボタン1",
+      "Category": "_RS_Custom",
+      "Styles": {
+        "BUTTON": {
+          "NormalStyle": {
+            "FontColor": "Background 1",
+            "Background": "Accent 1",
+            "BorderString": "1px solid Accent_1",
+            "BorderRadiusString": "0px 0px 0px 0px"
+          },
+          "HoverStyle": {
+            "Background": "Accent 1 30",
+            "BorderString": "1px solid Accent_1_30"
+          },
+          "FocusStyle": {
+            "BoxShadowString": "0px 0px 1px 2px #FFFFC000"
+          },
+          "ActiveStyle": {
+            "Background": "Accent 1 8",
+            "BorderString": "1px solid Accent_1_8"
+          },
+          "DisableStyle": {
+            "FontColor": "#EEEEEE",
+            "Background": "#AAAAAA",
+            "BorderString": "1px solid #AAAAAA"
+          },
+          "Transition": "0.15s"
+        }
+      },
+      "StyleTemplateFashionScope": 1
+    },
+    {
+      "Key": "追加",
+      "Category": "_RS_Custom",
+      "Styles": {
+        "BUTTON": {
+          "NormalStyle": {
+            "FontColor": "Background 1 0",
+            "Background": "Background 2 -50",
+            "BorderString": "1px solid Background_2_-50",
+            "BorderRadiusString": "4px 4px 4px 4px"
+          },
+          "HoverStyle": {
+            "Background": "Background 2 -25"
+          },
+          "FocusStyle": {
+            "BoxShadowString": "0px 0px 1px 2px #FFFFC000"
+          },
+          "DisableStyle": {
+            "FontColor": "#EEEEEE",
+            "Background": "#AAAAAA",
+            "BorderString": "1px solid #AAAAAA"
+          },
+          "Transition": "0.15s"
+        }
+      },
+      "StyleTemplateFashionScope": 1
+    },
+    {
+      "Key": "編集",
+      "Category": "_RS_Custom",
+      "Styles": {
+        "BUTTON": {
+          "NormalStyle": {
+            "FontColor": "Text 1 0",
+            "Background": "Accent 3 40",
+            "BorderString": "1px solid Background_2_-50",
+            "BorderRadiusString": "4px 4px 4px 4px"
+          },
+          "HoverStyle": {
+            "Background": "Accent 4 60"
+          },
+          "FocusStyle": {
+            "BoxShadowString": "0px 0px 1px 2px #FFFFC000"
+          },
+          "DisableStyle": {
+            "FontColor": "#EEEEEE",
+            "Background": "#AAAAAA",
+            "BorderString": "1px solid #AAAAAA"
+          },
+          "Transition": "0.15s"
+        }
+      },
+      "StyleTemplateFashionScope": 1
+    },
+    {
+      "Key": "削除",
+      "Category": "_RS_Custom",
+      "Styles": {
+        "BUTTON": {
+          "NormalStyle": {
+            "FontColor": "Background 1",
+            "Background": "#FFFF0000",
+            "BorderString": "1px solid #FFFF0000",
+            "BorderRadiusString": "4px 4px 4px 4px"
+          },
+          "HoverStyle": {
+            "Background": "#FFFF6464"
+          },
+          "FocusStyle": {
+            "BoxShadowString": "0px 0px 1px 2px #FFFFC000"
+          },
+          "DisableStyle": {
+            "FontColor": "#EEEEEE",
+            "Background": "#AAAAAA",
+            "BorderString": "1px solid #AAAAAA"
+          },
+          "Transition": "0.15s"
+        }
+      },
+      "StyleTemplateFashionScope": 1
+    },
+    {
+      "Key": "_RS_Outline_Style2",
+      "Category": "_RS_ThemeStyle",
+      "Styles": {
+        "BUTTON": {
+          "NormalStyle": {
+            "FontColor": "Accent 1",
+            "Background": "Background 1",
+            "BorderString": "1px solid Accent_1",
+            "BorderRadiusString": "4px 4px 4px 4px"
+          },
+          "HoverStyle": {
+            "FontColor": "Background 1",
+            "Background": "Accent 1",
+            "BorderString": "1px solid Background_1"
+          },
+          "FocusStyle": {
+            "BoxShadowString": "0px 0px 1px 2px #FFFFC000"
+          },
+          "ActiveStyle": {
+            "FontColor": "Background 1",
+            "Background": "Accent 1 -27",
+            "BorderString": "1px solid Background_1"
+          },
+          "DisableStyle": {
+            "FontColor": "#C4C4C4",
+            "Background": "#FFFFFF",
+            "BorderString": "1px solid #C4C4C4"
+          },
+          "Transition": "0.15s"
+        }
+      },
+      "StyleTemplateFashionScope": 1
+    },
+    {
+      "Key": "_RS_Normal_Style7",
+      "Category": "_RS_ThemeStyle",
+      "Styles": {
+        "BUTTON": {
+          "NormalStyle": {
+            "FontColor": "Background 1",
+            "Background": "Accent 6",
+            "BorderString": "1px solid Accent_6",
+            "BorderRadiusString": "4px 4px 4px 4px"
+          },
+          "HoverStyle": {
+            "Background": "Accent 6 30",
+            "BorderString": "1px solid Accent_6_30"
+          },
+          "FocusStyle": {
+            "BoxShadowString": "0px 0px 1px 2px #FFFFC000"
+          },
+          "ActiveStyle": {
+            "Background": "Accent 6 8",
+            "BorderString": "1px solid Accent_6_8"
+          },
+          "DisableStyle": {
+            "FontColor": "#EEEEEE",
+            "Background": "#AAAAAA",
+            "BorderString": "1px solid #AAAAAA"
+          },
+          "Transition": "0.15s"
+        }
+      },
+      "StyleTemplateFashionScope": 1
+    },
+    {
+      "Key": "_RS_Normal_Style2",
+      "Category": "_RS_ThemeStyle",
+      "Styles": {
+        "BUTTON": {
+          "NormalStyle": {
+            "FontColor": "Background 1",
+            "Background": "Accent 1",
+            "BorderString": "1px solid Accent_1",
+            "BorderRadiusString": "4px 4px 4px 4px"
+          },
+          "HoverStyle": {
+            "Background": "Accent 1 30",
+            "BorderString": "1px solid Accent_1_30"
+          },
+          "FocusStyle": {
+            "BoxShadowString": "0px 0px 1px 2px #FFFFC000"
+          },
+          "ActiveStyle": {
+            "Background": "Accent 1 8",
+            "BorderString": "1px solid Accent_1_8"
+          },
+          "DisableStyle": {
+            "FontColor": "#EEEEEE",
+            "Background": "#AAAAAA",
+            "BorderString": "1px solid #AAAAAA"
+          },
+          "Transition": "0.15s"
+        }
+      },
+      "StyleTemplateFashionScope": 1
+    },
+    {
+      "Key": "Admin",
+      "Category": "_RS_Custom",
+      "Styles": {
+        "BUTTON": {
+          "NormalStyle": {
+            "FontColor": "Background 1",
+            "Background": "#FF0070C0",
+            "BorderString": "1px solid Accent_1",
+            "BorderRadiusString": "4px 4px 4px 4px"
+          },
+          "HoverStyle": {
+            "Background": "Accent 1 30",
+            "BorderString": "1px solid Accent_1_30"
+          },
+          "FocusStyle": {
+            "BoxShadowString": "0px 0px 1px 2px Accent_4_-25"
+          },
+          "ActiveStyle": {
+            "Background": "Accent 1 8",
+            "BorderString": "1px solid Accent_1_8"
+          },
+          "DisableStyle": {
+            "FontColor": "#EEEEEE",
+            "Background": "#AAAAAA",
+            "BorderString": "1px solid #AAAAAA"
+          },
+          "Transition": "0.15s"
+        }
+      },
+      "StyleTemplateFashionScope": 1
+    },
+    {
+      "Key": "UpDown",
+      "Category": "_RS_Custom",
+      "Styles": {
+        "BUTTON": {
+          "NormalStyle": {
+            "FontColor": "black",
+            "Background": "Background 1 0",
+            "BorderString": "1px solid Background_1_-15",
+            "BorderRadiusString": "2px 2px 2px 2px"
+          },
+          "HoverStyle": {
+            "Background": "Background 1 -15"
+          }
+        }
+      }
+    }
+  ],
+  "Forguncy.ForguncyPivotTableCellTypeStyleTemplateSupport": [
+    {
+      "Key": "km_pivot",
+      "Category": "_RS_Custom",
+      "Styles": {
+        "WholeTable": {
+          "NormalStyle": {
+            "FontColor": "black",
+            "Background": "Background 1 0",
+            "BorderTopString": "1px solid Accent_1_60",
+            "BorderBottomString": "1px solid Accent_1_60",
+            "InsideHorizontalBorderString": "1px solid Accent_1_60",
+            "InsideVerticalBorderString": "1px solid Accent_1_60",
+            "BorderRadiusString": "0px 0px 0px 0px"
+          }
+        },
+        "FirstColumn": {
+          "NormalStyle": {
+            "BorderRadiusString": "0px 0px 0px 0px"
+          }
+        },
+        "HeaderRow": {
+          "NormalStyle": {
+            "FontColor": "Background 1 0",
+            "Background": "Text 1 0",
+            "InsideVerticalBorderString": "1px solid Background_1_0",
+            "BorderRadiusString": "0px 0px 0px 0px",
+            "CellHorizontalAlignment": "Center",
+            "CellVerticalAligment": "Center"
+          }
+        },
+        "SubtotalRow1": {
+          "NormalStyle": {
+            "BorderRadiusString": "0px 0px 0px 0px"
+          }
+        },
+        "SubtotalRow2": {
+          "NormalStyle": {
+            "BorderRadiusString": "0px 0px 0px 0px"
+          }
+        },
+        "SubtotalRow3": {
+          "NormalStyle": {
+            "BorderRadiusString": "0px 0px 0px 0px"
+          }
+        },
+        "SubtotalCol1": {
+          "NormalStyle": {
+            "BorderRadiusString": "0px 0px 0px 0px"
+          }
+        },
+        "SubtotalCol2": {
+          "NormalStyle": {
+            "BorderRadiusString": "0px 0px 0px 0px"
+          }
+        },
+        "SubtotalCol3": {
+          "NormalStyle": {
+            "BorderRadiusString": "0px 0px 0px 0px"
+          }
+        },
+        "GrandTotalColumn": {
+          "NormalStyle": {
+            "BorderRadiusString": "0px 0px 0px 0px"
+          }
+        },
+        "GrandTotalRow": {
+          "NormalStyle": {
+            "FontColor": "black",
+            "Background": "Background 1 0",
+            "BorderTopString": "3px solid Text_2_60",
+            "BorderBottomString": "3px solid Text_2_60",
+            "InsideVerticalBorderString": "1px solid Text_2_60",
+            "BorderRadiusString": "0px 0px 0px 0px",
+            "Bold": true
+          }
+        },
+        "FirstColStripe": {
+          "NormalStyle": {
+            "BorderRadiusString": "0px 0px 0px 0px"
+          }
+        },
+        "SecondColStripe": {
+          "NormalStyle": {
+            "BorderRadiusString": "0px 0px 0px 0px"
+          }
+        },
+        "FirstRowStripe": {
+          "NormalStyle": {
+            "BorderRadiusString": "0px 0px 0px 0px"
+          }
+        },
+        "SecondRowStripe": {
+          "NormalStyle": {
+            "Background": "Accent 1 80",
+            "BorderRadiusString": "0px 0px 0px 0px"
+          }
+        },
+        "ColSubheading1": {
+          "NormalStyle": {
+            "BorderRadiusString": "0px 0px 0px 0px"
+          }
+        },
+        "ColSubheading2": {
+          "NormalStyle": {
+            "BorderRadiusString": "0px 0px 0px 0px"
+          }
+        },
+        "ColSubheading3": {
+          "NormalStyle": {
+            "BorderRadiusString": "0px 0px 0px 0px"
+          }
+        },
+        "RowSubheading1": {
+          "NormalStyle": {
+            "BorderRadiusString": "0px 0px 0px 0px"
+          }
+        },
+        "RowSubheading2": {
+          "NormalStyle": {
+            "BorderRadiusString": "0px 0px 0px 0px"
+          }
+        },
+        "RowSubheading3": {
+          "NormalStyle": {
+            "BorderRadiusString": "0px 0px 0px 0px"
+          }
+        }
+      }
+    }
+  ],
+  "Forguncy.CustomMenu.ForguncyMenuCellTypeStyleTemplateSupportAttribute": [
+    {
+      "Key": "_RS_Dark_ThemeStyle2",
+      "Category": "_RS_Dark",
+      "Styles": {
+        "LEVEL0": {
+          "NormalStyle": {
+            "FontColor": "Background 1",
+            "Background": "Accent 1 12",
+            "BorderRadiusString": "0px 0px 0px 0px"
+          },
+          "HoverStyle": {
+            "Background": "Accent 1 27"
+          },
+          "FocusStyle": {
+            "Background": "Accent 1 20"
+          },
+          "SelectedStyle": {
+            "Background": "Accent 1 20"
+          },
+          "Transition": "0.15s"
+        },
+        "LEVEL1": {
+          "NormalStyle": {
+            "FontColor": "Background 1",
+            "Background": "Accent 1",
+            "BorderRadiusString": "0px 0px 0px 0px"
+          },
+          "HoverStyle": {
+            "Background": "Accent 1 12"
+          },
+          "FocusStyle": {
+            "FontColor": "Accent 1",
+            "Background": "Background 1"
+          },
+          "Transition": "0.15s"
+        },
+        "LEVEL2": {
+          "NormalStyle": {
+            "FontColor": "Background 1",
+            "Background": "Accent 1",
+            "BorderRadiusString": "0px 0px 0px 0px"
+          },
+          "HoverStyle": {
+            "Background": "Accent 1 12"
+          },
+          "FocusStyle": {
+            "FontColor": "Accent 1",
+            "Background": "Background 1"
+          },
+          "SelectedStyle": {
+            "FontColor": "Accent 1",
+            "Background": "Background 1"
+          },
+          "Transition": "0.15s"
+        },
+        "LEVEL3": {
+          "NormalStyle": {
+            "FontColor": "Background 1",
+            "Background": "Accent 1",
+            "BorderRadiusString": "0px 0px 0px 0px"
+          },
+          "HoverStyle": {
+            "Background": "Accent 1 12"
+          },
+          "FocusStyle": {
+            "FontColor": "Accent 1",
+            "Background": "Background 1"
+          },
+          "SelectedStyle": {
+            "FontColor": "Accent 1",
+            "Background": "Background 1"
+          },
+          "Transition": "0.15s"
+        }
+      },
+      "StyleTemplateFashionScope": 1
+    },
+    {
+      "Key": "_RS_Dark_ThemeStyle7",
+      "Category": "_RS_Dark",
+      "Styles": {
+        "LEVEL0": {
+          "NormalStyle": {
+            "FontColor": "Background 1",
+            "Background": "Accent 6 12",
+            "BorderRadiusString": "0px 0px 0px 0px"
+          },
+          "HoverStyle": {
+            "Background": "Accent 6 27"
+          },
+          "FocusStyle": {
+            "Background": "Accent 6 20"
+          },
+          "SelectedStyle": {
+            "Background": "Accent 6 20"
+          },
+          "Transition": "0.15s"
+        },
+        "LEVEL1": {
+          "NormalStyle": {
+            "FontColor": "Background 1",
+            "Background": "Accent 6",
+            "BorderRadiusString": "0px 0px 0px 0px"
+          },
+          "HoverStyle": {
+            "Background": "Accent 6 12"
+          },
+          "FocusStyle": {
+            "FontColor": "Accent 6",
+            "Background": "Background 1"
+          },
+          "Transition": "0.15s"
+        },
+        "LEVEL2": {
+          "NormalStyle": {
+            "FontColor": "Background 1",
+            "Background": "Accent 6",
+            "BorderRadiusString": "0px 0px 0px 0px"
+          },
+          "HoverStyle": {
+            "Background": "Accent 6 12"
+          },
+          "FocusStyle": {
+            "FontColor": "Accent 6",
+            "Background": "Background 1"
+          },
+          "Transition": "0.15s"
+        },
+        "LEVEL3": {
+          "NormalStyle": {
+            "FontColor": "Background 1",
+            "Background": "Accent 6",
+            "BorderRadiusString": "0px 0px 0px 0px"
+          },
+          "HoverStyle": {
+            "Background": "Accent 6 12"
+          },
+          "FocusStyle": {
+            "FontColor": "Accent 6",
+            "Background": "Background 1"
+          },
+          "SelectedStyle": {
+            "FontColor": "Accent 6",
+            "Background": "Background 1"
+          },
+          "Transition": "0.15s"
+        }
+      },
+      "StyleTemplateFashionScope": 1
+    },
+    {
+      "Key": "Admin",
+      "Category": "_RS_Custom",
+      "Styles": {
+        "LEVEL0": {
+          "NormalStyle": {
+            "FontColor": "Background 1",
+            "Background": "#FF0070C0",
+            "BorderString": "",
+            "InsideHorizontalBorderString": "",
+            "InsideVerticalBorderString": "",
+            "BorderRadiusString": "0px 0px 0px 0px"
+          },
+          "FocusStyle": {
+            "Background": "Accent 2 20"
+          },
+          "Transition": "0.15s"
+        },
+        "LEVEL1": {
+          "NormalStyle": {
+            "FontColor": "Background 1",
+            "Background": "#FF0070C0",
+            "BorderRadiusString": "0px 0px 0px 0px"
+          },
+          "HoverStyle": {
+            "Background": "Accent 2 -25"
+          },
+          "FocusStyle": {
+            "FontColor": "Accent 2",
+            "Background": "Background 1"
+          },
+          "Transition": "0.15s"
+        },
+        "LEVEL2": {
+          "NormalStyle": {
+            "FontColor": "Background 1",
+            "Background": "#FF0070C0",
+            "BorderRadiusString": "0px 0px 0px 0px"
+          },
+          "HoverStyle": {
+            "Background": "Accent 2 -25"
+          },
+          "FocusStyle": {
+            "FontColor": "Accent 2",
+            "Background": "Background 1"
+          },
+          "Transition": "0.15s"
+        },
+        "LEVEL3": {
+          "NormalStyle": {
+            "FontColor": "Background 1",
+            "Background": "#FF0070C0",
+            "BorderRadiusString": "0px 0px 0px 0px"
+          },
+          "HoverStyle": {
+            "Background": "Accent 2 12"
+          },
+          "FocusStyle": {
+            "FontColor": "Accent 2",
+            "Background": "Background 1"
+          },
+          "SelectedStyle": {
+            "FontColor": "Accent 2",
+            "Background": "Background 1"
+          },
+          "Transition": "0.15s"
+        }
+      },
+      "StyleTemplateFashionScope": 1
+    }
+  ]
+}

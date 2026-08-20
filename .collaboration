@@ -1,22 +1,18 @@
 [
   {
+    "ModuleName": "Pages/ビルトイン ページ",
+    "ModuleType": 6
+  },
+  {
+    "ModuleName": "Pages/ビルトイン モバイルページ",
+    "ModuleType": 6
+  },
+  {
     "ModuleName": "Pages/Built-in Pages",
     "ModuleType": 6
   },
   {
-    "ModuleName": "PCPage/Login",
-    "ModuleType": 1
-  },
-  {
-    "ModuleName": "PCPage/401",
-    "ModuleType": 1
-  },
-  {
     "ModuleName": "PCPage/Change Password",
-    "ModuleType": 1
-  },
-  {
-    "ModuleName": "PCPage/Disconnected",
     "ModuleType": 1
   },
   {
@@ -24,11 +20,31 @@
     "ModuleType": 1
   },
   {
-    "ModuleName": "PCPage/Email Notifications",
+    "ModuleName": "PCPage/Edit User Information",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/Login",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/Password Reset Link Sent",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/Reset Password",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/401",
     "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/Under Maintenance",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "PCPage/Email Notifications",
     "ModuleType": 1
   },
   {
@@ -40,15 +56,7 @@
     "ModuleType": 1
   },
   {
-    "ModuleName": "PCPage/Edit User Information",
-    "ModuleType": 1
-  },
-  {
-    "ModuleName": "PCPage/Reset Password",
-    "ModuleType": 1
-  },
-  {
-    "ModuleName": "PCPage/Password Reset Link Sent",
+    "ModuleName": "PCPage/Disconnected",
     "ModuleType": 1
   },
   {
@@ -56,19 +64,7 @@
     "ModuleType": 6
   },
   {
-    "ModuleName": "MobilePage/Login (Mobile)",
-    "ModuleType": 2
-  },
-  {
-    "ModuleName": "MobilePage/401 (Mobile)",
-    "ModuleType": 2
-  },
-  {
     "ModuleName": "MobilePage/Change Password (Mobile)",
-    "ModuleType": 2
-  },
-  {
-    "ModuleName": "MobilePage/Disconnected (Mobile)",
     "ModuleType": 2
   },
   {
@@ -76,23 +72,11 @@
     "ModuleType": 2
   },
   {
-    "ModuleName": "MobilePage/Email Notifications (Mobile)",
-    "ModuleType": 2
-  },
-  {
-    "ModuleName": "MobilePage/Under Maintenance (Mobile)",
-    "ModuleType": 2
-  },
-  {
-    "ModuleName": "MobilePage/Scan MFA QR Code (Mobile)",
-    "ModuleType": 2
-  },
-  {
-    "ModuleName": "MobilePage/Verify MFA Code (Mobile)",
-    "ModuleType": 2
-  },
-  {
     "ModuleName": "MobilePage/Edit User Information (Mobile)",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "MobilePage/Login (Mobile)",
     "ModuleType": 2
   },
   {
@@ -104,8 +88,36 @@
     "ModuleType": 2
   },
   {
-    "ModuleName": "PCPage/Page1",
-    "ModuleType": 1
+    "ModuleName": "MobilePage/401 (Mobile)",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "MobilePage/Under Maintenance (Mobile)",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "MobilePage/Email Notifications (Mobile)",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "MobilePage/Scan MFA QR Code (Mobile)",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "MobilePage/Verify MFA Code (Mobile)",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "MobilePage/Disconnected (Mobile)",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "MasterPCPage/FGC_ユーザーマスターページ",
+    "ModuleType": 3
+  },
+  {
+    "ModuleName": "MasterPCPage/マスターページ1",
+    "ModuleType": 3
   },
   {
     "ModuleName": "MasterPCPage/Default Master",
@@ -120,7 +132,7 @@
     "ModuleType": 9
   },
   {
-    "ModuleName": "image/Built-in Images",
+    "ModuleName": "image/組み込み画像",
     "ModuleType": 37
   },
   {
@@ -141,6 +153,14 @@
   },
   {
     "ModuleName": "Image/fgc_logo_dark.svg",
+    "ModuleType": 38
+  },
+  {
+    "ModuleName": "Image/fgc_logo_light.svg",
+    "ModuleType": 38
+  },
+  {
+    "ModuleName": "Image/状態遷移.png",
     "ModuleType": 38
   },
   {

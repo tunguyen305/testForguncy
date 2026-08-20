@@ -1,23 +1,32 @@
 {
   "IntegrateWithOtherApplication": {
-    "Password": "*H&Aih6Mfh*i"
+    "Password": "PR2~rhOb5Ad&"
   },
   "ShareCommandContainers": [],
   "ListviewLoadingIndicatorSettings": {},
   "GlobalProperties": [],
-  "WebSitePort": 27235,
-  "UserServicePort": 51142,
-  "StartDateFiscalYear": 4,
+  "WebSitePort": 55863,
+  "UserServicePort": 43619,
+  "NotAllowQueryDatabaseByJsApi": false,
+  "StartPage": "",
+  "StartDateFiscalYear": 10,
   "BaseOnStartingMonth": true,
   "MultipleLanguageSettings": {
     "Languages": [
       {
-        "Name": "en",
+        "Name": "ja",
         "IsDefault": true,
-        "Description": "Built-in English language, cannot be deleted",
+        "Description": "組み込みの日本語は削除できません。",
+        "IsBuildIn": true,
+        "LanguageAttribute": "ja",
+        "FontFamily": "Body"
+      },
+      {
+        "Name": "en",
+        "Description": "組み込みの英語は削除できません。",
         "IsBuildIn": true,
         "LanguageAttribute": "en",
-        "FontFamily": "Body"
+        "FontFamily": "Calibri"
       }
     ],
     "PublicResource": {},
