@@ -177,14 +177,7 @@
   },
   {
     "ModuleName": "Plugin",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\PhillipNguyen",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-08-20T16:45:08.7033948+07:00",
-    "ModuleType": 40,
-    "ToRemoveFiles": []
+    "ModuleType": 40
   },
   {
     "ModuleName": "PublishSetting",
