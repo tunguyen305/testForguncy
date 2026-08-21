@@ -58,8 +58,8 @@
     "Count": 19
   },
   "Values": {
-    "13,2": "ただいまメンテナンス中です",
-    "16,2": "ご利用の皆様にはご不便おかけし、申し訳ございません。メンテナンス終了までしばらくお待ちください。"
+    "13,2": "WE'LL BE BACK SOON!",
+    "16,2": "Sorry, the site is currently under maintenance. We'll be back soon."
   },
   "AttachInfos": {
     "3,4": {
@@ -124,7 +124,7 @@
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
-    "Title": "ただいまメンテナンス中です",
+    "Title": "Under maintenance",
     "RowBreakLines": [],
     "RepeatRangeSettings": [],
     "IsBuiltInPage": true,
@@ -134,4 +134,4 @@
     "PaperSize": {},
     "Margin": {}
   }
-}//sibfRLUKTy3uh7hQlCWpIUh+Hykr883kWQKDKIPkSpad8Vm7byCjOMTG+28tIjnjxa3FBo6lH6szKWy+fgNq2VecKmtyddNPXQqRl70DDjFg9B/TJEmKe7FQ2FMFu0Kbyma/vm0JvBlylY+Xt+ZfQxNSrN6cQdSaP2Wx4KnI1nLf9XMb35UpQfI4pLS9Zz8cy70+Kv4hDG8jbxA9GKLgF297WTDi2R4TcF2EQDI65uaCs+eTZSFsDkiOZPtU2d79Tet1uUTgCovbLd/7WbiqPPK9RucF9+TCVrFgEsczFxHXx29XksaKNu3RbByXBjH+MSBCNKOP+WHy5zbZYPmlW1z+fG7727ZzEp9ZaEVR8qkJgQJMwbbIe9Cs0NG7oKngQ9/vEjgTlTHiF3gI2GQGg7NMKS8oEv0CdU5+8bWTprv74AGxIq+ucbYJ/vs2cbAVX3DArPvngdEzdl9XHi0cosATAnw9MOeDKZfEanIoJnOW62p/qiLEwMwpBiTu37NnWAYnTIHnQqUgEE5O8KZCTZ+tqn8D8rxOu+Gy0zGvs3xoJd4yJNohFGmVZb0bkKoH1NVlPQZ6/zc6R8wo6WTwoLaL391IQxgFVhIFDt4fmfRTG14YvU20Ivcj5BsjzWjkmu79g8zDtPEKQOp5D7PB0cmzGWuK7heFenAgYL3LfGyenhHWskBm0lmQ1a/eYhkv62R2nuFWaVk5viBU/6pxGGJKtx8HqkcCw5x+dcca7kSN9GM9I0ZiAWwbRLyY8/Vu9R/eYcvy+pQwB/5r0qOCwtLi0yYFMCMY2yVVL0i/zOPtrWYOuf/UoS62oyz5WDS01BPZAnL3UYSwxyXMfzgpVy/8Ux7g2r5R3zH6bYJe5/UEc3UfNzubKwmmKkI6JtmBo0fgdLPt5e+JI7VfLPCQgg==|920
+}//E91mHQ4lBrGI4XikDfPzUbfYW895Lr7QplFshfpeGLLBH1ZNjkZlNQntaFj+fyz9HtahyjGy9SUdRzeVgzvB2roFuca1kbeNotGa5nHH2vHfChWe8prex74WDm2aluHO+gfSbjsA4gO/CgWJwJM5qWO3Kb1s9+4/V4kbv6dLVkspt5i2I8WzPoC/Lu6L/u5Ou0uX9/p0SMgPmw0nlcX7koWgMC/T14XkSgplekrawNQDIuGWiSAeMSH4E5tQyx4m6nkzh1fDKF1vOlVJWkWsxxxHdLARlIV14ELyzQv2iYaxbXK11p8MiSnm6cC8GxSihrqYMSoqZaAZQArldVsoH/kK0Wt8JNY+j1W2TVsHozWLF0kDRDs/9TX922W1529rYG/mPxaSmcrcWP5bQMdy8kF8Q6k1FPDU5euxWQKSJ2QGgeo6835LRx8Jrwl1yq3F2NSOlRmIv+giAaZyomXUAQsrhXmLEgZzobGcVzLGSyPeJmaQaMYQeWW644Vb72pKI2LP16SSgariviw5g4QFw2zClPvoYcqTNEk+v6gOOkHqpaffUNG3TWFB/FsStnfbECMN4Ql0KmLyvZFPzFAsTfn0/C/6EvVQDiY+7skIGFkqsgvCv/2FnoBI4yIBbH3ZUA4ERm9FjRXC1YLVgkPeMGNskHgKIXSIi8NjgbqyYo1BWMo0VKmHM0eNXrmpv30nA0kZ1dBEQZMfJczPa6aqY6Z3UrXhxlt328ZPMk9BfjDQ6qDxEh4UL8eKPMzAY2RXL/C8koQgHrCPMXV+VYKqCr41mdMIQEDFSdCRQ7bkBe2X+emLSVb0fcH77u1FjWMSV+LlfmqFbkOjBWLUi4bxwTgtfWfF8KeGoIOT+sq40t6Q9OGpvA4tnvDHBiqFxX9FeET89g+AvCjRT2BrvnnegA==|920

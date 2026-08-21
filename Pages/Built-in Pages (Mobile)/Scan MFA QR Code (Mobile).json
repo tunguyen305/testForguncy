@@ -59,9 +59,9 @@
   },
   "Values": {
     "0,0": "  ",
-    "6,3": "認証アプリの構成",
-    "9,3": "モバイル端末の認証アプリでアカウントを追加し、下のQRコードをスキャンしてください。",
-    "22,3": "次へ"
+    "6,3": "Configure MFA",
+    "9,3": "Add an account on an authenticator app on your mobile phone and scan the QR code below.",
+    "22,3": "Next"
   },
   "AttachInfos": {
     "12,5": {
@@ -74,7 +74,7 @@
     "22,3": {
       "CellType": {
         "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
-        "Text": "次へ",
+        "Text": "Next",
         "AutoExecute": true,
         "TemplateKey": "_RS_Main1",
         "ForguncyAttribute": "MFA_Secret_Next_Button"
@@ -134,7 +134,7 @@
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
-    "Title": "認証アプリの構成",
+    "Title": "Configure MFA",
     "RowBreakLines": [],
     "RepeatRangeSettings": [],
     "IsBuiltInPage": true,
@@ -147,7 +147,6 @@
   "BackgroundPictures": [
     {
       "Name": "b35031c0-04e0-4981-ac25-4f456a2c8361.jpg",
-      "DisplayName": "背景画像1",
       "ForguncyPictureName": "PCLoginBackground",
       "ForguncyPictureSourceType": 2,
       "StyleInfo": {
@@ -158,7 +157,6 @@
     },
     {
       "Name": "1a4f13fc-91c6-4c36-9ab6-63b98e9a7783.png",
-      "DisplayName": "背景画像2",
       "StyleInfo": {
         "CornerRadius": 20.0,
         "Fill": "Background 1 0"
@@ -168,4 +166,4 @@
       "Size": "340,440"
     }
   ]
-}//kKhtH5pR6DDWR2Td+7eVuZ0vWU5yiBV4CgqGsMcLE4UhE59gkV8e7kbMyeM5PkrrQvdvMwVGE3XIDpByS8Q5MJSekLVMGy6tPWOGNFxqTcBX72koc5p8IiZqy8cCP9d1FJecEYQ9SKb0R/63hn8Ezy5yfdEadHMzwHBDy6TyILZkmUI43TEn6qAIescV9nPhICGm5itAyIXvjRr+tharNTfWRwgDRhlwJwmxc1QcIC01was8fabURCpp+r7Uu0ZDb78LtL4+NQw7ovZs2Si0r9WJ5btIoj3waZ31KfZvA0NLlRYX7mQZNAAg3OKXKBvRUrDEp0p3JNCqGdultWg6koiW+iFGHUyxDuv+C9DV2hixaF2CZVxwJY0tx78KtExMYqyCIs+ZD70JekQwGE1BU/S9YOQTFnikUfmMkyufJnz9rEiM6FbuFQePbNRsz8I9MaIYgVqj74C222AZ11HfTa4N9mpTwifpTy/lrPiwp4t0pLFAp06cE/AYnzUDWPQM+pdMbS1gQhV2Q9xlG0QA5R42o4gXq1/KggFNEeltYfgSd/fvQMEZyApywNiSZhwC3vwpPZBcBFnwWpu3Gcq5CVYoOTkPBvmEprDzLxN6KnIEhDb40WGIWMmLNMGrwMcNRv9hSKFB/2odSPXkbkpA6Qw+WooNMjNSWEpI6zcf3IJT6W8z99/NNktMTABDgsupxgYlZOGrk/zuqTnw21suXeH3O0PlYdR8djTGH36bGL2DY4kcgSSAvEienp9KmQu+jvXpPYbs+be73yYnpRjGlQtcTEbjwJoNiq86o8ZvMbnZjCINPf84ImPyDJ8/l/DEA7GouzBoyc5wfjSQSc3AN5sK6glM7KUzbTz9YgKpAAV1W7SEGfkkM/o5RPMmQrZ5vhkvlqOQO6QK4ZQ4YsrRng==|920
+}//7YqFT+1Qki6GNra5TCN4AmMzrG+HU3v/Gakm9yvIg+m8FFoENaKtsB0LOPJYZrYnXRjF2gC8yTqoAUrBRe2rAIVj9tx74iuMb6JhVGC3hzsYER5om28oUoArlqKhw98i+bsDNwMTOrs3vUNGrWUiL8Zutue/flZnAwBZbOafZDjKrTxIMy13jplUpdSU0ma63wT4nLY1oWd0AYvY8+A0btbxpqSJUtO5LpDEoUmavEbigEjA4bv4cbxxYqo9ZTKVSMBbIn3c3T8nkgrvx/x908sdV46x6h5xo1bCjvO+g933VMNLgy1agZ7pUC6F46wDIWvJiNQHjCR/DBJpGbisaNlpaNLJoMtZQZpv0LV12+7lBxrTUqgR5GP9GY2IJ11VDEVyW+/I4CvnPlW3iRqX/WD4tUvSOBcGBV3vCW0O3Gv3reibN/lE07c9vlLadEdIdPD6PBONQOPdsptLeDQ+qiwAtmVu45Ww2aVfn+5thTo/q3l0KQR25MCNvucTKR3J/IPUdOcz//orCfPPD/6d51p7hl6JsE3TZFU2SbVa52SosKM+NPfx1rGDHn+3n/9vwKsp/EgebIUUuvHUsHd2hXJk0+GWs0B7g86bNWDT/GUcPTaxPS1ce7MuWRmjNbw3RCB1ZJPFwB2cXkHE8pmyil1OmKQ55UYDWXASG6luRVZLoCAzfTD+96w/M8SW0QS6GsEXfEU42EuOw1KNgH7vwfss2eZX0bbtcmTnyqW3MU05Gv+HdsULZfPQGHJuhaANeEOQc3EKVPEV9NEUC2XjjO06en9uLI0/RQzIsfSiVHtQ6umoEjxco6t9bLpFGZQdEYcJv296L7/A2qlaiWIqnG7qCu6CU0m4hodJtLsIHu6tBqLbu8dCBjWPLtAzBRcqvE8QNdts9xT4Gjein+KeuQ==|920

@@ -23,7 +23,7 @@
           "DesignLengthInPixel": 30.0
         }
       },
-      "28": {
+      "33": {
         "GridRowColumnDefinition": {
           "DesignLengthInPixel": 20.0,
           "Mode": 2,
@@ -36,7 +36,7 @@
         }
       }
     },
-    "Count": 30
+    "Count": 35
   },
   "Cols": {
     "RowColumnAttachedInfos": {
@@ -220,53 +220,55 @@
           }
         }
       },
+      "16": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "17": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "18": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "19": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
       "20": {
-        "GridRowColumnDefinition": {
-          "DesignLengthInPixel": 10.0
-        }
-      },
-      "21": {
-        "GridRowColumnDefinition": {
-          "DesignLengthInPixel": 10.0
-        }
-      },
-      "39": {
-        "GridRowColumnDefinition": {
-          "DesignLengthInPixel": 20.0,
-          "Mode": 2,
-          "MinLength": {
-            "Unit": 1
-          },
-          "MaxLength": {
-            "Value": 1.0
-          }
-        }
-      },
-      "40": {
-        "GridRowColumnDefinition": {
-          "DesignLengthInPixel": 20.0,
-          "Mode": 2,
-          "MinLength": {
-            "Unit": 1
-          },
-          "MaxLength": {
-            "Value": 1.0
-          }
-        }
-      },
-      "41": {
-        "GridRowColumnDefinition": {
-          "DesignLengthInPixel": 20.0,
-          "Mode": 2,
-          "MinLength": {
-            "Unit": 1
-          },
-          "MaxLength": {
-            "Value": 1.0
-          }
-        }
-      },
-      "42": {
         "GridRowColumnDefinition": {
           "DesignLengthInPixel": 20.0,
           "Mode": 2,
@@ -409,22 +411,162 @@
             "Value": 1.0
           }
         }
+      },
+      "54": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "55": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "56": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "57": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "58": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "59": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "60": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "61": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "62": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
       }
     },
-    "Count": 55
+    "Count": 64
   },
   "Values": {
-    "5,20": "パスワードのリセット",
-    "8,20": "簡単に推測できるパスワードは避けてください",
-    "10,20": "*",
-    "10,21": "新しいパスワード",
-    "14,20": "*",
-    "14,21": "新しいパスワードの確認",
-    "19,20": "リセット",
-    "22,20": "キャンセル"
+    "6,32": "Welcome to login",
+    "10,25": "Name:",
+    "11,25": "Administrator",
+    "14,25": "Password:",
+    "15,25": "123456",
+    "20,25": "Sign in",
+    "23,25": "Forgot Password",
+    "25,22": "Default User Name:",
+    "25,33": "Administrator",
+    "26,22": "Default Password:",
+    "26,33": 123456,
+    "29,23": "Company Description",
+    "31,23": "Details of the Company"
   },
   "AttachInfos": {
-    "11,20": {
+    "6,25": {
+      "CellType": {
+        "$type": "Forguncy.ImageCellType, ServerDesignerCommon",
+        "ImagePath": "fgc_logo_dark.svg"
+      }
+    },
+    "11,25": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "Icon": {
+          "Name": "Mobile/387_user_2.svg",
+          "BuiltIn": true,
+          "Color": "Text 1 50"
+        },
+        "TemplateKey": "_RS_NewLargeRoundCorner",
+        "WaterMark": "Please enter user name",
+        "ForguncyAttribute": "LogIn_Username"
+      },
+      "DataValidationInfo": {
+        "IgnoreBlank": false
+      }
+    },
+    "15,25": {
       "CellType": {
         "$type": "Forguncy.TextCellType, ServerDesignerCommon",
         "ShowPassword": true,
@@ -433,48 +575,48 @@
             "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
           }
         ],
-        "TemplateKey": "_RS_NewLittleRoundCorner",
-        "ForguncyAttribute": "ResetPassword_NewPassword"
+        "Icon": {
+          "Name": "Application/078_lock_1.svg",
+          "BuiltIn": true,
+          "Color": "Text 1 50"
+        },
+        "TemplateKey": "_RS_NewLargeRoundCorner",
+        "WaterMark": "Please enter password",
+        "ForguncyAttribute": "LogIn_Password"
       },
       "DataValidationInfo": {
         "IgnoreBlank": false
       }
     },
-    "15,20": {
+    "18,25": {
       "CellType": {
-        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
-        "ShowPassword": true,
-        "SavedValidators": [
-          {
-            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
-          }
-        ],
-        "TemplateKey": "_RS_NewLittleRoundCorner",
-        "ForguncyAttribute": "ResetPassword_ConfirmPassword"
-      },
-      "DataValidationInfo": {
-        "IgnoreBlank": false
+        "$type": "Forguncy.CheckBoxCellType, ServerDesignerCommon",
+        "Caption": "Stay signed in",
+        "Style": 1,
+        "PrimaryColor": "Accent 1 0",
+        "ForguncyAttribute": "LogIn_RememberMe"
       }
     },
-    "19,20": {
+    "20,25": {
       "CellType": {
         "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
-        "Text": "リセット",
+        "Text": "Sign in",
         "AutoExecute": true,
-        "TemplateKey": "_RS_Main1",
-        "ForguncyAttribute": "ResetPassword_Button"
+        "TemplateKey": "_RS_Main2",
+        "ForguncyAttribute": "LogIn_Button"
       }
     },
-    "22,20": {
+    "23,25": {
       "CellType": {
         "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
         "CommandList": [
           {
             "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
-            "NavigateType": "back"
+            "PageName": "Forgot Password"
           }
         ],
-        "Text": "キャンセル",
+        "Text": "Forgot Password",
+        "ClickMode": 1,
         "TemplateKey": "_RS_Main"
       }
     }
@@ -485,49 +627,63 @@
         "FontFamily": 0,
         "FontSize": 24.0,
         "FontWeight": 1,
+        "Foreground": 2
+      },
+      {
+        "FontFamily": 0,
         "Foreground": 2,
-        "Underline": false,
-        "Strikethrough": false
+        "Formatter": 3
+      },
+      {
+        "FontFamily": 0,
+        "Formatter": 4,
+        "TextIndent": 0,
+        "HorizontalAlignment": 5
+      },
+      {
+        "FontFamily": 0,
+        "Foreground": 6,
+        "Formatter": 4
+      },
+      {
+        "FontFamily": 0,
+        "Foreground": 2
+      },
+      {
+        "FontFamily": 0,
+        "HorizontalAlignment": 7,
+        "Underline": false
       },
       {
         "FontFamily": 0,
         "FontSize": 13.333333333333332,
-        "Foreground": 3,
-        "Underline": false,
-        "Strikethrough": false
+        "Foreground": 8,
+        "Formatter": 3,
+        "HorizontalAlignment": 9
       },
       {
         "FontFamily": 0,
-        "Foreground": 4,
-        "Underline": null,
-        "Strikethrough": null
+        "FontSize": 13.333333333333332,
+        "Foreground": 8,
+        "Formatter": 3,
+        "HorizontalAlignment": 5
+      },
+      {
+        "FontFamily": 0
       },
       {
         "FontFamily": 0,
-        "FontSize": 14.666666666666666,
-        "Foreground": 2,
-        "HorizontalAlignment": 5,
-        "Underline": false,
-        "Strikethrough": false
+        "FontSize": 18.666666666666664,
+        "FontWeight": 1,
+        "Foreground": 10,
+        "VerticalAlignment": 11
       },
       {
         "FontFamily": 0,
-        "Formatter": 6,
-        "Underline": false,
-        "Strikethrough": false
-      },
-      {
-        "FontFamily": 0,
-        "FontSize": 14.666666666666666,
-        "Underline": false,
-        "Strikethrough": false
-      },
-      {
-        "FontFamily": 0,
-        "FontSize": 14.666666666666666,
-        "HorizontalAlignment": 7,
-        "Underline": false,
-        "Strikethrough": false
+        "FontSize": 13.333333333333332,
+        "Foreground": 10,
+        "VerticalAlignment": 11,
+        "WordWrap": true
       }
     ],
     "Types": {
@@ -535,42 +691,57 @@
         "Body",
         "Bold",
         "Text 1 25",
-        "Text 1 50",
-        "#FFFF0000",
-        "Left",
+        "[AUTO]General",
         "@",
-        "Center"
+        "Left",
+        "Text 1 15",
+        "Center",
+        "Background 1 -50",
+        "Right",
+        "Background 1 0",
+        "Top"
       ]
     },
     "CellStyles": {
-      "5,20": 0,
-      "8,20": 1,
-      "10,20": 2,
-      "10,21": 3,
-      "11,20": 4,
-      "14,20": 2,
-      "14,21": 3,
-      "15,20": 4,
-      "19,20": 5,
-      "22,20": 6
+      "6,32": 0,
+      "10,25": 1,
+      "11,25": 2,
+      "14,25": 1,
+      "15,25": 3,
+      "18,25": 4,
+      "23,25": 5,
+      "25,22": 6,
+      "25,33": 7,
+      "25,40": 8,
+      "26,22": 6,
+      "26,33": 7,
+      "26,40": 8,
+      "29,23": 9,
+      "31,23": 10
     },
     "SheetStyle": {
-      "FontFamily": 0,
-      "Underline": false,
-      "Strikethrough": false
+      "FontFamily": 0
     }
   },
   "Spans": [
-    "11,20,2,15",
-    "15,20,2,15",
-    "19,20,2,15",
-    "22,20,1,15",
-    "5,20,2,15"
+    "20,25,2,14",
+    "11,25,2,14",
+    "15,25,2,14",
+    "18,25,1,14",
+    "23,25,1,14",
+    "6,25,2,6",
+    "6,32,2,9",
+    "29,23,2,18",
+    "31,23,2,18",
+    "25,22,1,10",
+    "26,22,1,10",
+    "25,33,1,7",
+    "26,33,1,7"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
-    "MobilePageName": "FGC_パスワードのリセット_モバイル",
-    "Title": "パスワードのリセット",
+    "MobilePageName": "Login (Mobile)",
+    "Title": "Sign in",
     "RowBreakLines": [],
     "RepeatRangeSettings": [],
     "IsBuiltInPage": true
@@ -581,18 +752,28 @@
   },
   "BackgroundPictures": [
     {
-      "Name": "BackgroundPicture3",
-      "DisplayName": "背景画像1",
+      "Name": "1e95a7a8-4f1b-45f3-ad6d-700656cabd40.jpg",
+      "ForguncyPictureName": "PCLoginBackground",
+      "ForguncyPictureSourceType": 2,
+      "Stretch": 3,
+      "StyleInfo": {
+        "Fill": null
+      },
+      "IsAutomaticFill": false,
+      "Size": "1280,720"
+    },
+    {
+      "Name": "BackgroundPicture0",
       "StyleInfo": {
         "CornerRadius": 20.0,
-        "Fill": "#FFF6F6F8",
-        "Stroke": "Background 1 -25",
+        "Fill": "#FFFFFFFF",
+        "Stroke": "black",
         "StrokeThickness": 0.0
       },
       "IsAutomaticStroke": false,
       "IsAutomaticFill": false,
-      "Location": "340,60",
-      "Size": "400,460"
+      "Location": "440,80",
+      "Size": "400,500"
     }
   ]
-}//59cCeEsMF/4Y/zfZRDTdagDMtknSsf4yp5ZAP8hQ/6GaBoFteHPzMTAcI0VAOqPvxuwaxqewoyDgR79qOv025FqGi6wzfhjQ9aiM8wQW5y1oamqJdEm51+YkYbwHxFbDEtWmhvBjxy4SduXLWeFY9DS4Adjmf7FKgh2pVU7zsxOJazXhUJ98a01e0p8FmGKK++rlNLJf+N/wNTyv4/JUgS/pPCdF18oaG/OSsmsVQw5qrFgqaRpYMUKHPoujNZporOzo6X2uTt/gXTgUDGqI1/02TztBxJ3bfCrd7d2hEHxd+Cj4R1RiYYfCNNbMPTcfaea4AJ8Ck43lWrE/sIxSjcQlN5JfGalHvWSLRIUaCwQYq66JH31ZPgL+Od8TwzY6cnLvK4K4YNX4uFIGSRi4y4fuWyYa8sIO7/Fe8gTCytyfbDrMhAkfH9BMcAo+AmUMllxghLwB2xRV2PkcOJbwalmnj/J2Ew8Yaj9MeLVvfWRT7KweBIywtCM6zQ3PxbkHiGPjAy6y2DxTmjcJrxVhIHjLUnzGjtL4c3P1vYIZfMb9SwdmBbVCrNZzeUc+7Z3PXLAqXMkvo+8pWlEz5PysEEXZcpwjW3bsv2z9qbxf3FwVBz6/85Cnx3OzcDjFVBzevQuwVh/DwzgzePrcdUxpwF83/pSaf53vvYhou+QFKpZqcJV6ACV0LFglCryH9uo+3LfZ7Lm/fvDIIBEs3jz+7ImZH8at2sWZQtwfOESl0+IMRJ7RJ+vcwKl/wmF1744aqw9fq3jdW0Lq/I6Wc2kJDfmrX5/soxleEoe1CLKPzK/AAzfjnC2kf2W0w6l/oK9DvNLMhUYx671JW43eAPTRI01QhIdvYLy9tNJvllmtfBcPIuSzUEKUFhNNVzFWqGZHDDv+Fb4PldUyG8kl26QBqA==|920
+}//4bK4j4anpAMBhAfh3ZbxEa5yzci4oqGRANePtZCWjGsP6ZPBlEBX104rxCIk2v1gcY/cAFYWbaU4vRqKH+JJuskMv01V2fdpfRHussr7+MD81NDBU7bwWcEL54i7ksI4SY2NHMlcyuS85y9k7D7iD/JBA4yTuOYpTudcMj9D70R5p1cVrxrETNzmGQrPhtI/V1ZJrjjY5v3pEbC3ZU3ToMAzi1uc6ObSY6qqvISrojJzwqWnq+oozq/XrBxV8Rj5xGsi0ur8EOlJFEKY14qvAAAnephnJ1I8033RR8TVRnTVBLR7TG3GR3p5eAn7GMrVBxpECpQbLyHnnVrNsE/MJ4kr1PtIvPGMg1NkSU2IMp0ESsO+gBU3GcmKwW2ldmIX1p0Vp842s1rhOsP4pteMD2moUaPwMgbRHkKST1vjLJGosHTmobrgYVTuKUsKhxdPwAOzWlzntBSzPKqX0WknJZV7WZmW9dmFl1Vgnx66RaatlmZsmgFCp/InpnPBFImTClZPpswqD+AOsgqmMsgnRJlijSJDfHKZrPuOXClfgKSNZCG5CyNE3w/8SHjuImWMDedOYh6a/lYMTXokvsEwZP10G+a+3TPTturmoAt18/Uox5xhq6XmTbzG8p8rWHZzEY6PQMciNz8mhlfAMW4ftwhwMjgkhNn1yWjakod/OYqTtXbNLATdv5wdqP50xXaDF41Jwe7yFtd2CC1hKHyXOIIYJV4hiK0bu75Igqc9893Xrtvx0c9QCYhcb5QX9vVo7IkuhdKfpGcFODOLC5eqb1SM7OUn43Hoq5E4Eu2fFO58MMC8fewgDUKdIpTCcG/VDEfW5KGOwZJBk8Uqzbt+K7CE/qU3RVncYr+3JCLK1DzWPEDUGK52RqA2XtynveBKlOrmYtKHA2Ay+YyINU+ftw==|920
