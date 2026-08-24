@@ -59,10 +59,10 @@
   },
   "Values": {
     "0,0": "  ",
-    "6,3": "Verify Code",
-    "9,3": "Get the 6-digit code from authentication app.",
-    "16,3": "Authentication Code:",
-    "22,3": "Verify"
+    "6,3": "コードの入力",
+    "9,3": "お使いの認証アプリに表示されるコードを入力してください。",
+    "16,3": "コード",
+    "22,3": "確認"
   },
   "AttachInfos": {
     "17,3": {
@@ -82,13 +82,13 @@
         "CompareParamType": 2,
         "FirstParamValue": "6",
         "IgnoreBlank": false,
-        "ErrorMessage": "Please enter 6-digit code."
+        "ErrorMessage": "6桁のコードを入力してください。"
       }
     },
     "20,3": {
       "CellType": {
         "$type": "Forguncy.CheckBoxCellType, ServerDesignerCommon",
-        "Caption": "Don't ask again on this computer.",
+        "Caption": "このデバイスではコードの入力は不要にする",
         "Style": 1,
         "ForguncyAttribute": "MFA_VerifyCode_TrustDevice"
       }
@@ -96,7 +96,7 @@
     "22,3": {
       "CellType": {
         "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
-        "Text": "Verify",
+        "Text": "確認",
         "AutoExecute": true,
         "TemplateKey": "_RS_Main1",
         "ForguncyAttribute": "MFA_VerifyCode_SubmitButton"
@@ -178,7 +178,7 @@
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
-    "Title": "Verify Code",
+    "Title": "コードの入力",
     "RowBreakLines": [],
     "RepeatRangeSettings": [],
     "IsBuiltInPage": true,
@@ -191,6 +191,7 @@
   "BackgroundPictures": [
     {
       "Name": "0285f038-53e6-4cbd-a7f0-bd34cb6eb9ad.jpg",
+      "DisplayName": "背景画像1",
       "ForguncyPictureName": "PCLoginBackground",
       "ForguncyPictureSourceType": 2,
       "StyleInfo": {
@@ -201,6 +202,7 @@
     },
     {
       "Name": "446553e5-ddca-4ba5-bc1c-58b8cf3d8b8a.png",
+      "DisplayName": "背景画像2",
       "StyleInfo": {
         "CornerRadius": 20.0,
         "Fill": "Background 1 0"
@@ -210,4 +212,4 @@
       "Size": "340,440"
     }
   ]
-}//Fx71IUFJF5lr91HPK4O1uWg+hasZAN/xsGv1b7U7gIMhEkJ7wGYcxP5E8HcoyJXBmRNyNlP3WZER6RulZ4lMq7XOTeqzNSIpnUpy5+51uA+tdr2do0TXQfT/kaHTB/6Zsdv+H3DGVLDkMfU4c/CtLpSmuk+BJFw7RpIoTYynrTz0rs3lxiGAfYHQCvpVHl9Rfyaf+pdeqQPXjf/768jXPHV9OR2888lLKoRPuF1SrMNhw65rQ+EKQbL/+Lhtgl7Pg0N9Wd7QrJZZ8ppreeaFCetsQxJS9JXQuLFeLZZ9uzO+rv+wrtVYgxkeZO8V7aMXTgORVFQzBA3jmXD3kenBdSXgBzlNRhuKQ59bQIcvkecSw4KZqQmTccOe2FYgMp8L2dnzmAEbPJUj8d6LxvACt/MxJUXTMPFnuWphJYBscE5PdAJ+pUwBUKzTJXk/J28rTno5DhzrOGIiwXR7YwByN5senNl1aJhlFu7V8dvnHWbUQj3ECoVm9g67V4dxQU7t80mpslIJKtgrl2c8gZEzLCvTMyXiMZMwbjP5YZO+1+SRKk82WKjZOXpA96pcueK2zOsJaNvEmTd1TxWldYLON4Dhh73QVr9jmtt5I6qhF7BrEl7sgWHal9/yArBughOJWn1vf2bxTCJvWRiQsFphFK5anDWMY8+a2T3qX4iuilX3TNM8iH/vYt3bQX0aoylxcsfoGePW2+tVl3L4y/gDYs4rh5kKYIYP5I4MYjBmXdxnc0KBfqwQqpwwfYfLqB27W81OgQk+hgwa0AYqZzJ34Td8PVtF++biIN8MmHfuBMyS+y82Fh76V0S9dBjbb2GZN4P5v1Vw7eZdW9TpIN0dNEmlwyAvXsBV4FJ3YUQUR70iEsozQRWSgcYkNjP+l5JA8vkoMfWuRRvbOnSz4JxJ6A==|920
+}//YjsLk7MWE3jL2rQXgumKMG+wp4kk79YYMRo+gIwq/NwhJ2eYneEurI+HxrK6gZyv4eorXDpEgjIl34g1JwE7tvhsrUfICZ7epYP69xNOvDp4KWh2xGiuZjPrKYusikCz+DSnEYv6JIwe1m8z5NhdY1+8hwOmZkVmQWRkomHV1nsUaahrE3IHLHLN4uOuKW6MruJ9Zh9ESIwsc+DflUw4RU4YxJHkbQaP0Jelm57LZVR0AwrKglejg884e0Y0sOx124j17SdLJDyDJfc+Fipif5Cg5dGDh3+lLHVz/OnQHi8BLqfda/l2JbKs/tYr8v9jCJp495Q5kCUG+nfgWxhaC+KpKsyApBhEtOyWz6gcV14U68SU2YlTQnbfDqf2fiA7zPnDXnVxbtQMuli42W7W1TR6b9cFuHLzHnYFmV8dlyfdNootXAmDxbbPjtGAbMGQXxiObwlFLPrlk7SgH9qJ4nzgMP82wPvIfZVhHRosDx0RY2B31lxQgiGOTsPrJc9P5tpUE4PpF/Fg0cBT6sg+RG5kXK4p+fdqRDoj1T9M0328qPgCmyPSjJX+tq9cf+bkI4gB9//qs0SWmSb+2YRYSRUro2/G8POXuTHqGhmYUjHj4v39Lt3KjebVvup6L310fNBP3nb69NInwtlddfPNWY+R0YaH5aXSWmoWnk849MMG67p3i77+UC8EQeliqj11TW+j2zKviBxLYcT9L1E9n/ohflJlCg8xo9nKFvUXjc+2s56f8hH/EWd9UeGc3mbPfyO0r7Tgy7qkS1iEMIY2KmNoUSBtQenPUdZu06J6mb5LLYPYXH/TE3/QJQ7oaoPP4I9fmVSO2B14ph4JAFFY33rgluGk4eU79u66Q18S3f2GgY3cf+LuLzsr+S6Hj1OM9G3ts5CUpF7SO72rH05VKw==|920

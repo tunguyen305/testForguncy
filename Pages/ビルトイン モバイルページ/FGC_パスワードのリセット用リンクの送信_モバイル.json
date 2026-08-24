@@ -58,9 +58,9 @@
     "Count": 19
   },
   "Values": {
-    "8,3": "Password Reset Link Sent",
-    "11,3": "A password reset email has been sent to your email address. Click the link in the email as soon as you receive it. Then type the new password into the website's pop-up box. Please get in touch with the administrator if the mail is not received.",
-    "20,3": "Sign in"
+    "8,3": "パスワードを忘れた場合",
+    "11,3": "パスワードリセットのためのリンクがメールで送信されました。メール受信後、そのリンクをクリックし、開いたページて新しいパスワードを入力してください。メールが届かない場合は、管理者に問い合わせてください。",
+    "20,3": "ログイン"
   },
   "AttachInfos": {
     "20,3": {
@@ -69,10 +69,10 @@
         "CommandList": [
           {
             "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
-            "PageName": "Login (Mobile)"
+            "PageName": "FGC_ログイン_モバイル"
           }
         ],
-        "Text": "Sign in",
+        "Text": "ログイン",
         "AutoExecute": true,
         "TemplateKey": "_RS_Main1"
       }
@@ -135,7 +135,7 @@
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
-    "Title": "Password Reset Link Sent",
+    "Title": "パスワードを忘れた場合",
     "RowBreakLines": [],
     "RepeatRangeSettings": [],
     "IsBuiltInPage": true,
@@ -148,6 +148,7 @@
   "BackgroundPictures": [
     {
       "Name": "cd1e2a47-c776-4505-bf77-dea6447289f9.png",
+      "DisplayName": "背景画像1",
       "StyleInfo": {
         "CornerRadius": 20.0,
         "Fill": "#FFF6F6F8",
@@ -161,4 +162,4 @@
       "Size": "340,360"
     }
   ]
-}//JPrA0DD9q98/kBBllIRT5IwIDheTBR0VR+HZe9cOZz4aCOoqI7QGj3jMst1ArbrKJEM61/AIZ3zNfYtrLbwQi7R+ZrX7z9b20m6M/pI8N72dOagpy1zPaUbrVNwQ0iG5S5wEksF4iDQJILquXhwvENoMDgbOC/MnGY+zeZBuszqK1vfqhOoQX9imn31ymEZPlJTFtQrRbYL7y4P6FvbRcY8oKNKCzKFggxtmgF7vPqH2OGxSc7rLgCB6Zn/kR/b9hUFW3Le5GYW5ZnHhP1MESL0RELiCs9C71+kiisJ6dV9MSqG2HVSo3beIvHgpPWaBAK6qErmkQT0vIA62LHMjK+InKjl9y6KOnHFgVOWuooKCzs9AmbmpOaBazoM0MpO/P6n++cOEhHc01kukDC1Eqt+Y6+qXdfqtjaw96Z9FrKFGdoe1aKvENukJHyyTr13PZcgvgQ5cMEYPlQt1WFz9CKIktFLsb0cSzEos7egG8SocEVUE04GaluzzKrFJW/wJE3IpeV64SmkMBontapH9djtM0xLkenUw4H5W+4QCv3JgQoXUJFICmPo90jhpAoNuWqeZi6dYqg1JCqhwKwCl/N6eQBt8GzK8Ujph8TWY76oQMtWx3OGunApgTuhk/qfk5vjUCkBLuyuML38LKrksBTyl23EmwEMNrAhQDeUpQozQQWmxuXo3ogLGAlIggEj77P6HM0G1ZBwPGlbUoB6vBzd/2bK7Bzqabr5Tn6CI+WE/XxBvKKALPZ+Ujjm8QGDlBWGMZsI9hn7sB1hUtfxj/NCqwtOIMnogIYNOOAmPebqzTZgCFHKGloaQh/iTaz+6toGncwmgf8PeFHLmQ9ixl7w0P/0aU5X9UBDbYa7hOyHuVgoKXdAGsokMm4LjfPf+Ar9oDoMxkkIm6trYLJnk9A==|920
+}//t6YbmqcXz+gUjZydDVBaHZgR2zsO8EetHEhOzNC12t7Vu2iOdb00PdERmGScryup8UJcrqhxmpMHedJ3RujjRxSYOuiGUUTY3GhsSsv6Q4nIgl10CEM/xxE2VMOaAjNGkBmHRz8lse9Kwrj+1Q3wxsuAFLE8c6rWfV18rPO7a70ObPus4Qkso0UJyqLFLjdtyNba2Fa6D7CTBo6YlKWnsXLXXEqjkcJ0a59OGXpS34TEC17fyDCP7xWJTupriflu17uhVnKgRy/t1hWbgN2CTfTxLmumO6Z4hpujS03BjA+5nQ69dlRbSS9epdMDXMwTLIDkXplA0xO58GHkjcP5yJware9xxlUZl9v/H4fEEc4G1qYqZ7nigN/4lSVPLyOeqJFAaBaFVZ4+c78jt3kB0XERD5B+v1DX1yn4rsnpdP6kuhaGqz7GnPvWZZwfeaBVbVLatzwLnWQ5EnjPfEvQP6eHsAogP6tdBTiPlI5fvpuN1cc06tLLqdX25Nki5DvnS9HrZyk879IdcJP7l3qPOcY7ZlxNrRVmDNFujDj4SEPIxO0227XQyJj4espZP4fBnWfajC6blgPmQrDW7cJJtxmSLszlBVn5S3+UaQn8xl7CtDf1ys4t7tPD+AlRZV1iAlP04LcDOUPAqU8ayOXED+h51CRxuJmhRzz2cXWXqhV21nc3qSg1B2PIcAe2MhlsNM98JEh/SuRKEq/D2Bs0SeLyfH1VHooMc9vM4wXdTBvueDPq55VB2oNg5RHrbLARR11bGbqH3OChu4dY5Wb6OWWvSSnma8GkJbCWWhce4wFoVe8SCFkRzD6p46ATnS8wh+I+jc23cQVmx3ef5mOo84nywVTigyxYo7f0INeL8lQkvNaKoHk6dP5Nx9B+gX/53j/BfO8fBScjIpdlh+2gJQ==|920
