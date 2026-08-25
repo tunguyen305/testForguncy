@@ -185,12 +185,6 @@
   },
   {
     "ModuleName": "PCPage/p1",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\PhillipNguyen",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-08-24T14:53:27.0842286+07:00",
     "ModuleType": 1
   }
 ]
