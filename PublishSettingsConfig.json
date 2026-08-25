@@ -1,15 +1,1 @@
-[
-  {
-    "Name": "本番環境",
-    "ApplicationUrl": "http://192.168.101.100/km_system",
-    "PublishSettings": {
-      "IsPrivateServer": true,
-      "ServerName": "192.168.101.100",
-      "UserName": "Administrator",
-      "SitePort": 80,
-      "AppName": "km_system",
-      "AppStartPage": "",
-      "TakeServeronline": true
-    }
-  }
-]
+[]

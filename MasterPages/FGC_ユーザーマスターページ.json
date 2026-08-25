@@ -230,21 +230,97 @@
     "Count": 64
   },
   "AttachInfos": {
-    "1,0": {
+    "1,11": {
       "CellType": {
-        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
-        "CommandList": [
+        "$type": "Forguncy.CustomMenu.ForguncyMenuCellType, Forguncy.CustomMenu",
+        "TemplateKey": "_RS_Dark_ThemeStyle2",
+        "Items": [
           {
-            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
-            "NavigateType": "back"
+            "Value": "メニュー1",
+            "Text": "メニュー1",
+            "CanVisitRoleList": [
+              "FGC_Anonymous"
+            ],
+            "SubItems": [
+              {
+                "Value": "メニュー1_1",
+                "Text": "メニュー1_1",
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              },
+              {
+                "Value": "メニュー1_2",
+                "Text": "メニュー1_2",
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              }
+            ]
+          },
+          {
+            "Value": "メニュー2",
+            "Text": "メニュー2",
+            "CanVisitRoleList": [
+              "FGC_Anonymous"
+            ],
+            "SubItems": [
+              {
+                "Value": "メニュー2_1",
+                "Text": "メニュー2_1",
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              },
+              {
+                "Value": "メニュー2_2",
+                "Text": "メニュー2_2",
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              }
+            ]
+          },
+          {
+            "Value": "メニュー3",
+            "Text": "メニュー3",
+            "CanVisitRoleList": [
+              "FGC_Anonymous"
+            ],
+            "SubItems": [
+              {
+                "Value": "メニュー3_1",
+                "Text": "メニュー3_1",
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              },
+              {
+                "Value": "メニュー3_2",
+                "Text": "メニュー3_2",
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              }
+            ]
           }
         ],
-        "TemplateKey": "_RS_Normal_Style2",
-        "Icon": {
-          "Name": "Navigation/165_home_3.svg",
-          "BuiltIn": true,
-          "Color": "#FF00B050"
-        }
+        "MenuLevelsStyle": [
+          {
+            "FontSize": 17.33,
+            "Bold": true,
+            "Height": 45.0,
+            "IconHeight": 24.0,
+            "IconWidth": 24.0
+          },
+          {
+            "FontSize": 16.0,
+            "Bold": false,
+            "Height": 40.0,
+            "IconHeight": 24.0,
+            "IconWidth": 24.0
+          }
+        ]
       }
     },
     "1,54": {
@@ -264,20 +340,19 @@
   "StyleDatas": {
     "Styles": [
       {
-        "Background": 0
-      },
-      {
-        "FontFamily": 1,
+        "Background": null,
+        "FontFamily": 0,
         "FontSize": 13.333333333333332,
-        "Foreground": 2,
-        "HorizontalAlignment": 3,
+        "Foreground": 1,
+        "HorizontalAlignment": 2,
         "BorderBottom": null,
         "BorderTop": null,
         "BorderLeft": null,
         "BorderRight": null
       },
       {
-        "FontFamily": 1,
+        "Background": 3,
+        "FontFamily": 0,
         "BorderBottom": null,
         "BorderTop": null,
         "BorderLeft": null,
@@ -286,38 +361,24 @@
     ],
     "Types": {
       "Strs": [
-        "Accent 1 80",
         "Body",
         "Text 1 0",
-        "Right"
+        "Right",
+        "Background 1 0"
       ]
     },
     "CellStyles": {
-      "0,0": 0,
-      "0,1": 0,
-      "1,0": 0,
-      "1,54": 1,
-      "1,55": 2,
-      "1,56": 2,
-      "1,57": 2,
-      "1,58": 2,
-      "1,59": 2,
-      "1,60": 2,
-      "1,61": 2,
-      "2,0": 0,
-      "2,1": 0
-    },
-    "RowStyles": {
-      "0": 0,
-      "1": 0,
-      "2": 0
-    },
-    "ColStyles": {
-      "0": 0,
-      "1": 0
+      "1,54": 0,
+      "1,55": 1,
+      "1,56": 1,
+      "1,57": 1,
+      "1,58": 1,
+      "1,59": 1,
+      "1,60": 1,
+      "1,61": 1
     },
     "SheetStyle": {
-      "FontFamily": 1,
+      "FontFamily": 0,
       "BorderBottom": null,
       "BorderTop": null,
       "BorderLeft": null,
@@ -327,7 +388,7 @@
   "Spans": [
     "1,54,1,8",
     "4,2,31,60",
-    "1,0,1,2"
+    "1,11,3,16"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.MasterPage, ServerDesignerCommon",
@@ -364,4 +425,4 @@
       "BoxShadowString": "0 2 0 5 #175D7183"
     }
   ]
-}//fVdStZluZO98vgCkeIYkqKQtRxnJe4mbWgnwTQhtS6ivMr/0u6aBKFt7J1t+E5kYgKwrlLnJvs3qpcYHauxU8rLG1maWsjJFcMUuosU2ZyNiBAjV4Fiinf3MD2VqtPBD53fE2eEtCOfLDyPB/7FRX0227+pt5Tyj6Azh3bGbEIv+n+OJHJDIzRhr19PjQpNbZ1ZX0Dij17VHtex1tuHkZBr/ZXTCUo92xIXq9iGki6P4GCsF4TnMwsDajwlFWGZGHl+GijPmqR+BKwUq8vntY/Oxr6/yfa9sdRmDoZdkdwmIPkoR8pKWMaOll/INVeJXGiGuW7/ubyrhiOfC5qndoYQhR1OfDg8P/sQlKCrXqH3p5tB6iPTkYMDva8UWXUuoqs5onOps1h4lf9/cXWVBDwRzVrH96A+/XwGqvKJWGWUUN10ODCnirKzf+TJyT66eP09/xwit1PWbIp609NFvNM3tcKXJrPbBV9eKgxhy1rc1yGrKAfTrvy2RiHgZt4LMlo+hT0AigtBsDHHMkFLS1jvufidS7q+EN6hcBDrKjmsBEgGW/DZPJjzOUFyIRSn00uDeUbWolPSmDlIQah+h0O1scasvraIb4JSd0BPcQKkcP6y2HgbatavtZEARZQHquzyfRkD2YTQbaCthmlWEQ/XT+UeEfLKXLa0EZDeV0jbdf7h11hUsW3S0Ls/BIBsdVzFP4sQy863n4DHm5CtMkMyP0ycr1XFi0MrOn5bhqOa7UfShFEW+Ulu+cZoXdg2/wJhDFGBTuwVWvplHLRy+6yfievXa5R7jqfEAe8rA1M5McdtfRy4dWHOpo5XShPaBTM8UkAmJ3Kah8u9rqzPDgL+6/xdtnSuSET4/azOyHKVmxiu+fZPMzm+Mafhxa4uqxnywgcs+oGmuYtQgrzSDaw==|920
+}//ZunOmfWoi0lTORzlNQKERHUffWGTiWmwAHNt0XCs8seajhfg+nunOMf7Pgq4wgM2GGvjYkV/va6tSrLEOxGLKEaZysj0G8RBpXSKkRqJFXmdAQm3aK9H07KZsBRKlKu4Z08/PD4y5q6bGdooun5lGaC2TCj+YFyVKCyyyPHwoqUXg0EBxdeUHcwErmHWTW59jWlu/OXwpX3g+oJ0hDSTG8uPzasanjIblwlVglZ664XFxfHvjgxloeFp9B9K/jI9/VdFRUJ4ctEu/dOe8iR0ANKRIuKmHCF7u+ISPeG3MMMCOFtGU/+WfRMwz0rLUCG8GZNVY5MGatppFmXr1fsTNsrTAt8gWSRJZ24T+oVRoRcZiujKlvq0uYrL15sv6Fn5IArBbf/OIKekwDqb2s7uO2t4DUKDKHe//zjp8vMEWfTnGN7MADBI9+SbwdoqsyCbMtQTosvJWsHgIqmR0go5QoUxH67s03kLfLaaaZny/Vvc7lKZ30N5tLdrmWO2b8QNFnpS03UFP2Hw2YL8afCryRTEuAeRxHIp7U7k7oV/HXhKIcskJq1QADXlw+cjjOmo3hPTRsNiIUZsJI7GuB+SxvS7rInK27S7hMNoD+zYg0R0QWp7F1RsuZ8RlVnUaYQ6Froi0jpM7lHtW4FLBBFb1xNHzRj9IlMAQjv+QXzNbTQgZdyN6Lfyu+spqi7HpBi06GjvAIJh9Ikm2fS/i6Kj4FGvwebn4Okwxrd5HRo6APyz0MKIyWcpXbXJcJVrcIdnv9pJhDu7xvb9+4X+47xEwSl21qI05zqRwiGflVoJnenNBbYNHIOayR1osnK/Yw4axMUy7RdaQlTXJVhhcQsJ39L4N1gn9drBaotaztB4mrDzRwuEqIiGb5hkjNXeqT10aa9+39BOmGCPpEjqnmUPnw==|920
