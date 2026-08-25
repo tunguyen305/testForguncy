@@ -109,7 +109,17 @@
   },
   {
     "ModuleName": "MasterPCPage/FGC_ユーザーマスターページ",
-    "ModuleType": 3
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\PhillipNguyen",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-08-25T15:35:39.7559855+07:00",
+    "ModuleType": 3,
+    "ToRemoveFiles": [
+      "MasterPages\\FGC_ユーザーマスターページ.json",
+      "MasterPages\\FGC_ユーザーマスターページ.rd"
+    ]
   },
   {
     "ModuleName": "MasterPCPage/マスターページ1",
