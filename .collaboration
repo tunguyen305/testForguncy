@@ -113,7 +113,17 @@
   },
   {
     "ModuleName": "MasterPCPage/マスターページ1",
-    "ModuleType": 3
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\PhillipNguyen",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2026-08-25T15:22:48.6305464+07:00",
+    "ModuleType": 3,
+    "ToRemoveFiles": [
+      "MasterPages\\マスターページ1.json",
+      "MasterPages\\マスターページ1.rd"
+    ]
   },
   {
     "ModuleName": "ApplicationSetting",
