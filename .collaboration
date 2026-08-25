@@ -185,16 +185,6 @@
   },
   {
     "ModuleName": "PCPage/p1",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\PhillipNguyen",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2026-08-25T13:44:59.8366189+07:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\p1.json",
-      "Pages\\p1.rd"
-    ]
+    "ModuleType": 1
   }
 ]
