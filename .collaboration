@@ -108,11 +108,11 @@
     "ModuleType": 1
   },
   {
-    "ModuleName": "MasterPCPage/FGC_ユーザーマスターページ",
-    "ModuleType": 3
+    "ModuleName": "PCPage/ページ2",
+    "ModuleType": 1
   },
   {
-    "ModuleName": "MasterPCPage/マスターページ1",
+    "ModuleName": "MasterPCPage/FGC_ユーザーマスターページ",
     "ModuleType": 3
   },
   {
@@ -145,14 +145,6 @@
   },
   {
     "ModuleName": "Image/fgc_logo_dark.svg",
-    "ModuleType": 38
-  },
-  {
-    "ModuleName": "Image/fgc_logo_light.svg",
-    "ModuleType": 38
-  },
-  {
-    "ModuleName": "Image/状態遷移.png",
     "ModuleType": 38
   },
   {
